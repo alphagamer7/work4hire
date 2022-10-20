@@ -31,7 +31,11 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
+<<<<<<< Updated upstream
 	  <CreatePackage>false</CreatePackage>
+=======
+	  <EnableCodeSigning>false</EnableCodeSigning>
+>>>>>>> Stashed changes
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
@@ -53,9 +57,13 @@
 	  <None Remove="Views\" />
 	  <None Remove="ViewModel\" />
 	  <None Remove="Services\" />
+<<<<<<< Updated upstream
 	  <None Remove="Refractored.MvvmHelpers" />
 	  <None Remove="CommunityToolkit.Maui" />
 	  <None Remove="CommunityToolkit.Mvvm" />
+=======
+	  <None Remove="Model\" />
+>>>>>>> Stashed changes
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -67,6 +75,7 @@
 	  <Folder Include="Views\" />
 	  <Folder Include="ViewModel\" />
 	  <Folder Include="Services\" />
+	  <Folder Include="Model\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\MainPage.xaml">
