@@ -1,7 +1,7 @@
 ﻿using System;
 namespace work4hire.Model
 {
-    abstract class Person
+    public abstract class Person
     {
 
         public string FirstName { get; set; }
