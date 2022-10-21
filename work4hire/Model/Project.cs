@@ -16,7 +16,7 @@ namespace work4hire.Model
         public int Distance { get; set; }
         public int Status { get; set; }
         public int Latitude { get; set; }
-        public int Longititude { get; set; }
+        public int Longitude { get; set; }
         public Boolean isArchived { get; set; }
 
         public Project(int projectId, string category, string title, string description, string projectAddress, int createdDate, int editedDate, int assignedWorkerId, int distance, int status, int latitude, int longitude)
@@ -32,7 +32,7 @@ namespace work4hire.Model
             Distance = distance;
             Status = status;
             Latitude = latitude;
-            Longititude = longitude;
+            Longitude = longitude;
         }
 	}
 }
