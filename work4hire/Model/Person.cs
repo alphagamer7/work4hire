@@ -9,6 +9,8 @@ namespace work4hire.Model
         public string Email { get; set; }
         public string Address { get; set; }
         public string Image { get; set; }
+        public string ContactNo { get; set; }
+        public int Status { get; set; } // 1-0 to denote if status exist or not
     }
 }
 

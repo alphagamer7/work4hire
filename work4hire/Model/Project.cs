@@ -5,20 +5,34 @@ namespace work4hire.Model
 {
 	public class Project
 	{
-        public int ProductId { get; set; }
+        public int ProjectId { get; set; }
         public string Category { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public int CreateDate { get; set; }
-        public int assignedWorkerId { get; set; }
+        public string ProjectAddress { get; set; }
+        public int CreatedDate { get; set; } // Stroing date in unix format
+        public int EditedDate { get; set; } // Stroing date in unix format
+        public int AssignedWorkerId { get; set; }
+        public int Distance { get; set; }
+        public int Status { get; set; }
+        public int Latitude { get; set; }
+        public int Longititude { get; set; }
+        public Boolean isArchived { get; set; }
 
-        public Project(int productid, string category, string title, string description, int createDate)
+        public Project(int projectId, string category, string title, string description, string projectAddress, int createdDate, int editedDate, int assignedWorkerId, int distance, int status, int latitude, int longitude)
 		{
-            ProductId = productid;
+            ProjectId = projectId;
+            ProjectAddress = projectAddress;
             Category = category;
-            Title = Title;
+            Title = title;
             Description = description;
-            CreateDate = createDate;
+            CreatedDate = createdDate;
+            EditedDate = editedDate;
+            AssignedWorkerId = assignedWorkerId;
+            Distance = distance;
+            Status = status;
+            Latitude = latitude;
+            Longititude = longitude;
         }
 	}
 }
