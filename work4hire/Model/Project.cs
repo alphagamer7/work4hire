@@ -9,15 +9,15 @@ namespace work4hire.Model
         public string Category { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public int Createdate { get; set; }
+        public int CreateDate { get; set; }
        
-        public Project(int productid, string category, string title, string description, int createdate)
+        public Project(int productid, string category, string title, string description, int createDate)
 		{
-            Productid = productid;
+            ProductId = productid;
             Category = category;
             Title = Title;
             Description = description;
-            Createdate = createdate;
+            CreateDate = createDate;
         }
 	}
 }
