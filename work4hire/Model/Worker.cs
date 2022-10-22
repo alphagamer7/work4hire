@@ -8,8 +8,7 @@ namespace work4hire.Model
         public List<string> Speciality { get; set; }
        
 
-
-        public Worker(string firstname, string lastname, string email, string address, string image,string aboutMe, List<string> speciality, int status)
+        public Worker(string firstname, string lastname, string email, string address, string image,string aboutMe, List<string> speciality, int status, int createdDate, int editedDate)
         {
             FirstName = firstname;
             LastName = lastname;
@@ -19,6 +18,8 @@ namespace work4hire.Model
             Speciality = speciality;
             AboutMe = aboutMe;
             Status = status;
+            CreatedDate = createdDate;
+            EditedDate = editedDate;
         }
     }
 }

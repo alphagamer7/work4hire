@@ -11,6 +11,9 @@ namespace work4hire.Model
         public string Image { get; set; }
         public string ContactNo { get; set; }
         public int Status { get; set; } // 1-0 to denote if status exist or not
+        public int CreatedDate { get; set; } // Stroing date in unix format
+        public int EditedDate { get; set; } // Stroing date in unix format
+
     }
 }
 
