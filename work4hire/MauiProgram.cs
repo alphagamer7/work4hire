@@ -1,4 +1,6 @@
-﻿namespace work4hire;
+﻿using CommunityToolkit.Maui;
+
+namespace work4hire;
 
 public static class MauiProgram
 {
@@ -7,8 +9,9 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
+            .UseMauiCommunityToolkit()
+            .ConfigureFonts(fonts =>
+            {
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
