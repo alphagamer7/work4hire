@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              Title=" Work4Hire"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="work4hire.MainPage">
+
+
+<Page.Behaviors>
+
+        <mct:StatusBarBehavior  StatusBarColor="#FFF5E4" StatusBarStyle="DarkContent"/>
+
+ </Page.Behaviors>
 
 
 
