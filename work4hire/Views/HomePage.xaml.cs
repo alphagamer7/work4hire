@@ -6,4 +6,9 @@ public partial class HomePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    async void OnButtonClicked(object sender, EventArgs args)
+    {
+  
+    }
 }

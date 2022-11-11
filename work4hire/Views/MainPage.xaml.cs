@@ -1,4 +1,5 @@
-﻿namespace work4hire;
+﻿
+namespace work4hire.Views;
 
 public partial class MainPage : ContentPage
 {
@@ -8,13 +9,17 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 
 
-		//statusBar.StatusBarColor = Colors.Pink;
-
-		//statusBar.StatusBarStyle = CommunityToolkit.maui.core.StatusBarStyle.LightContent;
 
 
-	}
 
+
+    }
+
+
+    async void OnLoginClicked(System.Object sender, System.EventArgs e)
+    {
+        await Navigation.PushAsync(new HomePage());
+    }
 }
 
 

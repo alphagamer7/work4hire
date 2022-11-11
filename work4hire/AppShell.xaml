@@ -3,29 +3,30 @@
     x:Class="work4hire.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:views="clr-namespace:Work4hire.Views"
+    xmlns:views="clr-namespace:work4hire.Views"
     xmlns:local="clr-namespace:work4hire"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate views:MainPage}"
         Route="MainPage" />
 
     <TabBar>
-        <Tab Title="One" Icon="{StaticResource IconOne}">
+        <Tab Title="One" Icon="tab_home.png">
+            
             <ShellContent
                 Title="Searcn"
-                ContentTemplate="{DataTemplate views:SearchPage}"
+                ContentTemplate="{DataTemplate views:PostedJobs}"
                 Route="OnePage" /> 
         </Tab>
-        <Tab Title="Favorites" Icon="{StaticResource IconTwo}">
+        <Tab Title="Favorites"  Icon="tab_map.png">
             <ShellContent
                 Title="Two"
                 ContentTemplate="{DataTemplate views:favorites}"
                 Route="TwoPage" />
         </Tab>
-        <Tab Title="PostedJobs" Icon="{StaticResource IconThree}">
+       <Tab Title="Favorites"  Icon="tab_map.png">
             <ShellContent
                 Title="Three"
                 ContentTemplate="{DataTemplate views:PostedJobs}"

@@ -1,4 +1,6 @@
-﻿namespace work4hire;
+﻿using work4hire.Services;
+
+namespace work4hire;
 
 public partial class App : Application
 {
@@ -6,7 +8,10 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+        DependencyService.Register<WebClientService>();
+        DependencyService.Register<FirebaseDataStore>();
+
+        MainPage = new AppShell();
 	}
 }
 
