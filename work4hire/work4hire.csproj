@@ -35,12 +35,9 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#480032" />
+		
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
-
-		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 
@@ -58,6 +55,8 @@
 	  <None Remove="CommunityToolkit.Mvvm" />
 	  <None Remove="FirebaseDatabase.net" />
 	  <None Remove="Controls\" />
+	  <None Remove="Resources\Splash\" />
+	  <None Remove="Resources\Splash\My project-1.png" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -71,6 +70,7 @@
 	  <Folder Include="Services\" />
 	  <Folder Include="Model\" />
 	  <Folder Include="Controls\" />
+	  <Folder Include="Resources\Splash\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\MainPage.xaml">
@@ -103,5 +103,8 @@
 	  <MauiXaml Update="Views\RegisterPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiSplashScreen Include="Resources\Splash\logo.png" />
 	</ItemGroup>
 </Project>
