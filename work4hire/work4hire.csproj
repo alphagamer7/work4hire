@@ -57,6 +57,7 @@
 	  <None Remove="CommunityToolkit.Maui" />
 	  <None Remove="CommunityToolkit.Mvvm" />
 	  <None Remove="FirebaseDatabase.net" />
+	  <None Remove="Controls\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -70,6 +71,7 @@
 	  <Folder Include="ViewModel\" />
 	  <Folder Include="Services\" />
 	  <Folder Include="Model\" />
+	  <Folder Include="Controls\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\MainPage.xaml">
@@ -82,6 +84,24 @@
 	    <SubType></SubType>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\PostedJobs.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TabbedPages.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Controls\HomePage.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Controls\FlyoutHeaderControl.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\HomePage %28copy%29.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\Register.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\RegisterPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>
