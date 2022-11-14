@@ -1,4 +1,6 @@
 ﻿using CommunityToolkit.Maui;
+using work4hire.ViewModel;
+using work4hire.Views;
 
 namespace work4hire;
 
@@ -16,7 +18,16 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		return builder.Build();
+		builder.Services.AddSingleton<LoginPage>();
+		builder.Services.AddSingleton<MainPageViewModel>();
+
+
+        builder.Services.AddSingleton<HomePage>();
+        builder.Services.AddSingleton<HomePageViewModel>();
+
+
+
+        return builder.Build();
 	}
 }
 

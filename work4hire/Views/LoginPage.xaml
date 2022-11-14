@@ -3,7 +3,7 @@
              Title="Work4Hire"
              xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="work4hire.Views.MainPage">
+             x:Class="work4hire.Views.LoginPage">
 <Page.Behaviors>
         <mct:StatusBarBehavior  StatusBarColor="#FFF5E4" StatusBarStyle="DarkContent"/>
  </Page.Behaviors>
@@ -15,6 +15,11 @@
         <Label  Text=" Password" TextColor="#181818" />
         <Entry x:Name="Password" IsPassword="True" />
         <Button x:Name="Login" Clicked="OnLoginClicked" Text="Login" BackgroundColor="#480032" />
+
+        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+            <Label Text="Don't have account?" TextColor="Gray" />
+            <Label Text="Sign Up here" TextColor="#50b3f2" />
+        </StackLayout>
 </VerticalStackLayout>
 </ContentPage>
 
