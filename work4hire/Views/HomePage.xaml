@@ -8,13 +8,11 @@
         <ScrollView>
      
             <Frame>
-            <HorizontalStackLayout
-                Padding="10">
+            <HorizontalStackLayout>
                     <Frame Margin="10"
                     BorderColor="Black"
-                    CornerRadius="50"
-                    HeightRequest="60"
-                    WidthRequest="60"
+                    HeightRequest="100"
+                    WidthRequest="100"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
                     VerticalOptions="Center">
@@ -25,8 +23,9 @@
                     WidthRequest="100" />
                     </Frame>
                     <VerticalStackLayout VerticalOptions="Center">
-                        <Label Text="Title" FontSize="24" TextColor="Gray"/>
+                        <Label Text="Work Title" FontSize="24" TextColor="Gray"/>
                         <Label Text="CreatedDate" FontSize="14" TextColor="Gray"/>
+                        <Label Text="Location" FontSize="14" TextColor="Gray"/>
                     </VerticalStackLayout>
             </HorizontalStackLayout>
             </Frame>
