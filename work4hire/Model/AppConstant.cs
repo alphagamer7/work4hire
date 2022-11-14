@@ -35,7 +35,7 @@ namespace work4hire.Model
                     {
                         Icon = "user.png",
                         Title = "Profile",
-                        ContentTemplate = new DataTemplate(typeof(HomePage)),
+                        ContentTemplate = new DataTemplate(typeof(ProfilePage)),
                     },
                      new ShellContent
                     {
