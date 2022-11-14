@@ -5,15 +5,33 @@
              Title="HomePage">
     <Grid>
     <StackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+     
+            <Frame>
+            <HorizontalStackLayout
+                Padding="10">
+                    <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="50"
+                    HeightRequest="60"
+                    WidthRequest="60"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                        <Image Source="user.png"
+                    Aspect="AspectFill"
+                    Margin="-40"
+                    HeightRequest="100"
+                    WidthRequest="100" />
+                    </Frame>
+                    <VerticalStackLayout VerticalOptions="Center">
+                        <Label Text="Title" FontSize="24" TextColor="Gray"/>
+                        <Label Text="CreatedDate" FontSize="14" TextColor="Gray"/>
+                    </VerticalStackLayout>
+            </HorizontalStackLayout>
+            </Frame>
 
-        <Button Text="Click to Rotate Text!"
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
-                Clicked="OnButtonClicked" />
+        </ScrollView>
     </StackLayout>
            <!--<Border Grid.Row="2"
                     Grid.Column="1"

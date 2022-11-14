@@ -85,9 +85,6 @@
 	  <MauiXaml Update="Views\PostedJobs.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\TabbedPages.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Controls\HomePage.xaml">
 	    <SubType>Designer</SubType>
 	  </MauiXaml>
