@@ -14,6 +14,12 @@
             ContentTemplate="{DataTemplate views:LoginPage}"
             Route="MainPage" />
 
+    <ShellContent
+            Shell.TabBarIsVisible="false"
+            FlyoutItemIsVisible="False"
+            Shell.FlyoutBehavior="Disabled"
+            ContentTemplate="{DataTemplate views:RegisterPage}"
+            Route="RegisterPage" />
         
     <Shell.FlyoutFooter>
         <StackLayout Padding="20">

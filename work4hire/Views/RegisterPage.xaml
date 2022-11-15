@@ -3,22 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="work4hire.Views.RegisterPage"
              Title="RegisterPage">
-     <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
-            <Label Text="Register" FontSize="30" TextColor="#480032"/>
-            <Label  Text="Email" TextColor="#181818" />
-            <Entry x:Name="Email" />
-            <Label  Text=" Password" TextColor="#181818" />
-            <Entry x:Name="Password" IsPassword="True" />
-          <Label  Text="First Name" TextColor="#181818" />
-            <Entry x:Name="firstName" IsPassword="True" />
-          <Label  Text="Last Name" TextColor="#181818" />
-            <Entry x:Name="lastName" IsPassword="True" />
+    <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
+        <Label Text="Register" FontSize="30" TextColor="#480032"/>
+        <Label  Text="Email" TextColor="#181818"  />
+        <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
+        <Label  Text="password" TextColor="#480032" />
+        <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
+        <Label  Text="First Name" TextColor="#480032" />
+        <Entry Text="{Binding FirstName}" x:Name="FirstName" />
+        <Label  Text="Last Name" TextColor="#480032" />
+        <Entry Text="{Binding LastName}" x:Name="LastName" />
 
-            <Button x:Name="Login" Clicked="OnRegisterClicked" Text="Register" BackgroundColor="#480032" />
+        <Button x:Name="Register" Command="{Binding RegisterCommand}" Text="Register" BackgroundColor="#480032" />
 
-            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
-                <Label Text="Don't have account?" TextColor="Gray" />
-                <Label Text="Sign Up here" TextColor="#50b3f2" />
-            </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+            <Label Text="Don't have account?" TextColor="Gray" />
+            <Label Text="Sign Up here" TextColor="#50b3f2" />
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

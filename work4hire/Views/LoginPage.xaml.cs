@@ -1,4 +1,6 @@
 ﻿using work4hire.Model;
+using Microsoft.Maui.Controls;
+using System;
 
 namespace work4hire.Views;
 
@@ -10,7 +12,7 @@ public partial class LoginPage : ContentPage
         InitializeComponent();
     }
 
-    async void OnLoginClicked(System.Object sender, System.EventArgs e)
+    async void OnLoginClicked(Object sender, EventArgs e)
     {
         var userDetails = new UserBasicInfo();
         userDetails.Email = "dsadas@daf.c";
@@ -24,6 +26,19 @@ public partial class LoginPage : ContentPage
 
 
     }
+
+
+    void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+    {
+        Console.Write("test");
+        handleNavigation();
+    }
+
+    async void handleNavigation()
+    {
+        await Shell.Current.GoToAsync($"//{nameof(RegisterPage)}");
+    }
+
 }
 
 
