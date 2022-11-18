@@ -8,7 +8,7 @@
         <ScrollView>
      
             <Frame>
-            <HorizontalStackLayout>
+            <VerticalStackLayout>
                     <Frame Margin="10"
                     BorderColor="Black"
                     HeightRequest="100"
@@ -22,12 +22,30 @@
                     HeightRequest="100"
                     WidthRequest="100" />
                     </Frame>
-                    <VerticalStackLayout VerticalOptions="Center">
-                        <Label Text="Work Title(profile)" FontSize="24" TextColor="Gray"/>
-                        <Label Text="CreatedDate" FontSize="14" TextColor="Gray"/>
-                        <Label Text="Location" FontSize="14" TextColor="Gray"/>
-                    </VerticalStackLayout>
-            </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
+                        <Entry x:Name="firstName" Text="Shubham" IsEnabled="False"></Entry>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Last Name: " FontSize="24" TextColor="Gray"/>
+                        <Entry x:Name="lastName" Text="Dhamane" IsEnabled="False"></Entry>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Contact No: " FontSize="24" TextColor="Gray"/>
+                        <Entry x:Name="contactNo" Text="+1335 333 3333" IsEnabled="False"></Entry>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Email: " FontSize="24" TextColor="Gray"/>
+                        <Entry x:Name="email" Text="xyz@cambrian.ca" IsEnabled="False"></Entry>
+                    </HorizontalStackLayout>
+                    
+                    <Button Text="Edit"  Clicked="editDetails"/>
+              
+                    
+
+            </VerticalStackLayout>
             </Frame>
 
         </ScrollView>
