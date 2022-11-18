@@ -9,7 +9,7 @@ namespace work4hire.Model
 {
     public class AppConstant
     {
-
+        public static string WebApiKey = "AIzaSyB3NAEFWuXtyP7iGvxJCz8Bs7TA7EGFo7E";
         public async static Task AddFlyoutMenusDetails()
         {
             AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();

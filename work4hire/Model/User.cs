@@ -26,6 +26,11 @@ namespace work4hire.Model
             EditedDate = editedDate;
         }
 
-	}
+        public User(string email, string password)
+        {
+            Email = email;
+            Password = password;
+        }
+    }
 }
 

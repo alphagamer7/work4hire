@@ -19,7 +19,8 @@ public static class MauiProgram
 			});
 
 		builder.Services.AddSingleton<LoginPage>();
-		builder.Services.AddSingleton<MainPageViewModel>();
+        builder.Services.AddSingleton<LoginPageViewModel>();
+        builder.Services.AddSingleton<MainPageViewModel>();
 
 
         builder.Services.AddSingleton<HomePage>();
