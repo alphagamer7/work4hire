@@ -8,7 +8,7 @@
         <ScrollView>
      
             <Frame>
-            <VerticalStackLayout>
+            <VerticalStackLayout x:Name="VerticalLayout">
                     <Frame Margin="10"
                     BorderColor="Black"
                     HeightRequest="100"
@@ -41,7 +41,7 @@
                         <Entry x:Name="email" Text="xyz@cambrian.ca" IsEnabled="False"></Entry>
                     </HorizontalStackLayout>
                     
-                    <Button Text="Edit"  Clicked="editDetails"/>
+                    <Button x:Name="edit" Text="Edit"  Clicked="editDetails"/>
               
                     
 
