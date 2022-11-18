@@ -17,7 +17,6 @@ namespace work4hire.Services
         public async Task<User> RegisterUser(User user)
         {
             var service = DependencyService.Get<IWebClientService>();
-            //string output = JsonConvert.SerializeObject(user);
             string content = JsonConvert.SerializeObject(new
             {
                 email = user.Email,
@@ -31,8 +30,6 @@ namespace work4hire.Services
 
             dynamic json = await service.PostAsync(BaseUrl + "/user", content, "application/json");
             return json;
-            //var cats = CatListBuilder(json);
-            //return cats;
         }
     }
 }
