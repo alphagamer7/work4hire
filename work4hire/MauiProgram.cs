@@ -1,4 +1,8 @@
-﻿namespace work4hire;
+﻿using CommunityToolkit.Maui;
+using work4hire.ViewModel;
+using work4hire.Views;
+
+namespace work4hire;
 
 public static class MauiProgram
 {
@@ -7,13 +11,23 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
+            .UseMauiCommunityToolkit()
+            .ConfigureFonts(fonts =>
+            {
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		return builder.Build();
+		builder.Services.AddSingleton<LoginPage>();
+		builder.Services.AddSingleton<MainPageViewModel>();
+
+
+        builder.Services.AddSingleton<HomePage>();
+        builder.Services.AddSingleton<HomePageViewModel>();
+
+
+
+        return builder.Build();
 	}
 }
 

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="work4hire.Views.RegisterPage"
+             Title="RegisterPage">
+     <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
+            <Label Text="Register" FontSize="30" TextColor="#480032"/>
+            <Label  Text="Email" TextColor="#181818" />
+            <Entry x:Name="Email" />
+            <Label  Text=" Password" TextColor="#181818" />
+            <Entry x:Name="Password" IsPassword="True" />
+          <Label  Text="First Name" TextColor="#181818" />
+            <Entry x:Name="firstName" IsPassword="True" />
+          <Label  Text="Last Name" TextColor="#181818" />
+            <Entry x:Name="lastName" IsPassword="True" />
+
+            <Button x:Name="Login" Clicked="OnRegisterClicked" Text="Register" BackgroundColor="#480032" />
+
+            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                <Label Text="Don't have account?" TextColor="Gray" />
+                <Label Text="Sign Up here" TextColor="#50b3f2" />
+            </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

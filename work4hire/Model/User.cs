@@ -5,7 +5,7 @@ namespace work4hire.Model
 	{
      
 
-        public User(string firstname,string lastname, string email, string address, string image, int status)
+        public User(string firstname,string lastname, string email, string address, string image, int status, int createdDate, int editedDate)
         {
             FirstName = firstname;
             LastName = lastname;
@@ -13,6 +13,8 @@ namespace work4hire.Model
             Address = address;
             Image = image;
             Status = status;
+            CreatedDate = createdDate;
+            EditedDate = editedDate;
         }
 
 	}

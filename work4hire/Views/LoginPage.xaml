@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             Title="Work4Hire"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="work4hire.Views.LoginPage">
+<Page.Behaviors>
+        <mct:StatusBarBehavior  StatusBarColor="#FFF5E4" StatusBarStyle="DarkContent"/>
+ </Page.Behaviors>
+
+<VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
+        <Label Text="Log in" FontSize="30" TextColor="#480032"/>
+        <Label  Text=" Username" TextColor="#181818" />
+        <Entry x:Name="Username" />
+        <Label  Text=" Password" TextColor="#181818" />
+        <Entry x:Name="Password" IsPassword="True" />
+        <Button x:Name="Login" Clicked="OnLoginClicked" Text="Login" BackgroundColor="#480032" />
+
+        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+            <Label Text="Don't have account?" TextColor="Gray" />
+            <Label Text="Sign Up here" TextColor="#50b3f2" />
+        </StackLayout>
+</VerticalStackLayout>
+</ContentPage>
+
