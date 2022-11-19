@@ -9,7 +9,6 @@ namespace work4hire.Views;
 
 public partial class LoginPage : ContentPage
 {
-    public string webApiKey = "AIzaSyB3NAEFWuXtyP7iGvxJCz8Bs7TA7EGFo7E";
     public LoginPage(LoginPageViewModel viewModel)
     {
         InitializeComponent();
