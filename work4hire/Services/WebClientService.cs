@@ -38,8 +38,9 @@ namespace work4hire.Services
                 HttpResponseMessage response = await client.PostAsync(uri, content);
                 return response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : null;
             }
-            catch
+            catch (Exception ex)
             {
+                Console.Write(ex);
                 return null;
             }
         }

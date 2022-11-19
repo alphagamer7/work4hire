@@ -9,7 +9,7 @@ namespace work4hire.Model
 {
     public class AppConstant
     {
-
+        public static string WebApiKey = "AIzaSyB3NAEFWuXtyP7iGvxJCz8Bs7TA7EGFo7E";
         public async static Task AddFlyoutMenusDetails()
         {
             AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
@@ -28,14 +28,20 @@ namespace work4hire.Model
                     new ShellContent
                     {
                         Icon = "dashboard.png",
-                        Title = "Admin Dashboard",
+                        Title = "Home",
                         ContentTemplate = new DataTemplate(typeof(HomePage)),
                     },
                     new ShellContent
                     {
-                        Icon = "about_us.png",
+                        Icon = "user.png",
                         Title = "Profile",
-                        ContentTemplate = new DataTemplate(typeof(HomePage)),
+                        ContentTemplate = new DataTemplate(typeof(ProfilePage)),
+                    },
+                     new ShellContent
+                    {
+                        Icon = "about_us.png",
+                        Title = "Favourites",
+                        ContentTemplate = new DataTemplate(typeof(favorites)),
                     },
                    }
             };

@@ -34,6 +34,9 @@
 	  <CreatePackage>false</CreatePackage>
 	  <EnableCodeSigning>false</EnableCodeSigning>
 	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	  <WarningLevel>4</WarningLevel>
+	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#480032" />
@@ -58,12 +61,14 @@
 	  <None Remove="Controls\" />
 	  <None Remove="Resources\Splash\" />
 	  <None Remove="Resources\Splash\My project-1.png" />
+	  <None Remove="FirebaseAuthentication.net" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	  <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
 	  <PackageReference Include="CommunityToolkit.Maui" Version="1.3.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+	  <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Views\" />
@@ -86,9 +91,6 @@
 	  <MauiXaml Update="Views\PostedJobs.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\TabbedPages.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Controls\HomePage.xaml">
 	    <SubType>Designer</SubType>
 	  </MauiXaml>
@@ -102,6 +104,9 @@
 	    <SubType>Designer</SubType>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\RegisterPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ProfilePage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>

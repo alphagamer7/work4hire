@@ -9,16 +9,21 @@
  </Page.Behaviors>
 
 <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
-        <Label Text="Log in" FontSize="30" TextColor="#480032"/>
-        <Label  Text=" Username" TextColor="#181818" />
-        <Entry x:Name="Username" />
-        <Label  Text=" Password" TextColor="#181818" />
-        <Entry x:Name="Password" IsPassword="True" />
-        <Button x:Name="Login" Clicked="OnLoginClicked" Text="Login" BackgroundColor="#480032" />
+        <Label Text="Login" FontSize="30" TextColor="#480032"/>
+        <Label  Text="Email" TextColor="#181818"  />
+        <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
+        <Label  Text="Password" TextColor="#480032" />
+        <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
+        <Button x:Name="Login" Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#480032" />
 
-        <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+        <StackLayout Orientation="Horizontal" Margin="10" Spacing="5" HorizontalOptions="Center">
             <Label Text="Don't have account?" TextColor="Gray" />
-            <Label Text="Sign Up here" TextColor="#50b3f2" />
+            <Label Text="Sign Up here" TextColor="#50b3f2" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"
+                              NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
 </VerticalStackLayout>
 </ContentPage>

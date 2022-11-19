@@ -1,29 +1,31 @@
 ﻿using work4hire.Model;
+using Microsoft.Maui.Controls;
+using System;
+using Firebase.Auth;
+using Newtonsoft.Json;
+using work4hire.ViewModel;
 
 namespace work4hire.Views;
 
 public partial class LoginPage : ContentPage
 {
-
-    public LoginPage()
+    public LoginPage(LoginPageViewModel viewModel)
     {
         InitializeComponent();
+        this.BindingContext = viewModel;
     }
 
-    async void OnLoginClicked(System.Object sender, System.EventArgs e)
+
+    void OnTapGestureRecognizerTapped(object sender, EventArgs args)
     {
-        var userDetails = new UserBasicInfo();
-        userDetails.Email = "dsadas@daf.c";
-        userDetails.RoleID = 1;
-        userDetails.RoleText = "dsadas@daf.c";
-        userDetails.FullName = "dsadas@daf.c";
-
-        App.UserDetails = userDetails;
-
-        await AppConstant.AddFlyoutMenusDetails();
-
-
+        handleNavigation();
     }
+
+    async void handleNavigation()
+    {
+        await Shell.Current.GoToAsync($"//{nameof(RegisterPage)}");
+    }
+
 }
 
 

@@ -1,26 +1,43 @@
 ﻿using work4hire.Model;
+using System;
+using work4hire.ViewModel;
 
 namespace work4hire.Views;
 
 public partial class RegisterPage : ContentPage
 {
-	public RegisterPage()
+    private CancellationTokenSource _cancelTokenSource;
+    private bool _isCheckingLocation;
+
+    public RegisterPage(RegisterViewModel viewModel)
 	{
 		InitializeComponent();
-	}
+        _ = GetCurrentLocation();
+        this.BindingContext = viewModel;
+    }
 
-    async void OnRegisterClicked(System.Object sender, System.EventArgs e)
+    public async Task GetCurrentLocation()
     {
-        //var userDetails = new UserBasicInfo();
-        //userDetails.Email = "dsadas@daf.c";
-        //userDetails.RoleID = 1;
-        //userDetails.RoleText = "dsadas@daf.c";
-        //userDetails.FullName = "dsadas@daf.c";
+        try
+        {
+            _isCheckingLocation = true;
 
-        //App.UserDetails = userDetails;
+            GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
 
-        //await AppConstant.AddFlyoutMenusDetails();
+            _cancelTokenSource = new CancellationTokenSource();
 
+            Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
+            if (location != null)
+                Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+        }
+        catch (Exception ex)
+        {
+            // Unable to get location
+        }
+        finally
+        {
+            _isCheckingLocation = false;
+        }
     }
 }
