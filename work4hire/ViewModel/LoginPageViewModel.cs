@@ -30,7 +30,6 @@ namespace work4hire.ViewModel
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(webApiKey));
                 try
                 {
-                    //"tester22@gmail.com", "password"
                     var auth = await authProvider.SignInWithEmailAndPasswordAsync(loginUser.Email, loginUser.Password);
                     var content = await auth.GetFreshAuthAsync();
                     var serializedContent = JsonConvert.SerializeObject(content);

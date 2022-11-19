@@ -30,7 +30,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<RegisterViewModel>();
 
         builder.Services.AddSingleton<favorites>();
-        //builder.Services.AddSingleton<HomePageViewModel>();
+
 
         return builder.Build();
 	}

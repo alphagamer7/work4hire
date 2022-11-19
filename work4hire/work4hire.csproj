@@ -62,6 +62,8 @@
 	  <None Remove="Resources\Splash\" />
 	  <None Remove="Resources\Splash\My project-1.png" />
 	  <None Remove="FirebaseAuthentication.net" />
+	  <None Remove="Model\Domain\" />
+	  <None Remove="Model\Utility\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -77,6 +79,8 @@
 	  <Folder Include="Model\" />
 	  <Folder Include="Controls\" />
 	  <Folder Include="Resources\Splash\" />
+	  <Folder Include="Model\Domain\" />
+	  <Folder Include="Model\Utility\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Views\MainPage.xaml">
