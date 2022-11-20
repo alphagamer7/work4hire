@@ -14,8 +14,9 @@ namespace work4hire.Model
         {
             AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
 
-            var studentDashboardInfo = AppShell.Current.Items.Where(f => f.Route == nameof(HomePage)).FirstOrDefault();
-            if (studentDashboardInfo != null) AppShell.Current.Items.Remove(studentDashboardInfo);
+            var homePageInfo = AppShell.Current.Items.Where(f => f.Route == nameof(HomePage)).FirstOrDefault();
+            if (homePageInfo != null) AppShell.Current.Items.Remove(homePageInfo);
+
 
 
             var flyoutItem = new FlyoutItem()

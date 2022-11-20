@@ -62,5 +62,15 @@
                                  HorizontalOptions="Center" VerticalOptions="Center" />
                 </Grid>
            </Border>-->
+        <Button
+                Command="{Binding FabIconClickCommand}"
+                Text="Add"
+                HorizontalOptions="End"
+                Padding="10"
+                VerticalOptions="End"
+                    >
+
+
+        </Button>
     </Grid>
 </ContentPage>
