@@ -3,10 +3,11 @@
 public partial class ProfilePage : ContentPage
 {
     int count = 0;
-	public ProfilePage()
+	public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
 	{
 		InitializeComponent();
-	}
+        this.BindingContext = viewModel;
+    }
 
     void editDetails(System.Object sender, System.EventArgs e)
     {
