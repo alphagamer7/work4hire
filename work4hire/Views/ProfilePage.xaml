@@ -15,12 +15,15 @@
                     WidthRequest="100"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                        <Image Source="user.png"
-                    Aspect="AspectFill"
-                    Margin="-40"
-                    HeightRequest="100"
-                    WidthRequest="100" />
+                    VerticalOptions="Center"
+                           >
+                          <ImageButton x:Name="ProfilePic"
+                                       Clicked="editProfilePic"
+                                        Aspect="AspectFill"
+                                        Margin="-40"
+                                        HeightRequest="100"
+                                        WidthRequest="100"
+                             />
                     </Frame>
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
