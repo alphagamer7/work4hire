@@ -27,6 +27,10 @@ namespace work4hire.ViewModel
 
 
 
+        
+
+
+
         //public string firstname = "Shubham";
         //public string lastname = "Dhamane";
         //public string email = "xvy@mycambrian.ca";
@@ -43,10 +47,14 @@ namespace work4hire.ViewModel
         }
         #endregion
 
-
-
+        private void GetProfileInfo()
+        {
+            var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+            _email = userInfo.User.Email;
+        }
 
 
     }
+    
 }
 

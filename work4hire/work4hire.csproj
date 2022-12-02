@@ -61,6 +61,7 @@
 	  <None Remove="Resources\Splash\" />
 	  <None Remove="Resources\Splash\My project-1.png" />
 	  <None Remove="FirebaseAuthentication.net" />
+	  <None Remove="FirebaseAdmin" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -68,6 +69,7 @@
 	  <PackageReference Include="CommunityToolkit.Maui" Version="1.3.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	  <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+	  <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Views\" />

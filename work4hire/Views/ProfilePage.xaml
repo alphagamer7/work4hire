@@ -36,12 +36,8 @@
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Contact No: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="contactNo" Text="{Binding _contactNo}" ></Entry>
-                    </HorizontalStackLayout>
-                    <HorizontalStackLayout Spacing="10">
                         <Label Text="Email: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="email" Text="{Binding _email}" ></Entry>
+                        <Label x:Name='email' ></Label>
                     </HorizontalStackLayout>
                     
                     <Button x:Name="edit" Text="Edit" Command="{Binding SubmitCommand}"/>

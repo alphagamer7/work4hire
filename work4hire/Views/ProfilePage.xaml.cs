@@ -1,17 +1,31 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using CommunityToolkit.Maui.Views;
+using Firebase.Auth;
+using FirebaseAdmin.Auth;
+using Newtonsoft.Json;
 
 namespace work4hire.Views;
 
 public partial class ProfilePage : ContentPage
 {
     int count = 0;
+
 	public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
 	{
 		InitializeComponent();
         this.BindingContext = viewModel;
-    }
+        GetProfileInfoAsync();
 
+    }
+    private async Task GetProfileInfoAsync()
+    {
+        var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+        email.Text = userInfo.User.Email;
+        firstName.Text = userInfo.User.FirstName;
+        lastName.Text = userInfo.User.LastName;
+
+    }
     void editDetails(System.Object sender, System.EventArgs e)
     {
 
