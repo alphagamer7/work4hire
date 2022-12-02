@@ -1,4 +1,7 @@
-﻿namespace work4hire.Views;
+﻿using System.Diagnostics;
+using CommunityToolkit.Maui.Views;
+
+namespace work4hire.Views;
 
 public partial class ProfilePage : ContentPage
 {
@@ -42,21 +45,39 @@ public partial class ProfilePage : ContentPage
 
     async void editProfilePic(System.Object sender, System.EventArgs e)
     {
-        var result = await FilePicker.PickAsync(new PickOptions
+        string action = await DisplayActionSheet("Open With", "Cancel", null, "Camera", "Files");
+        Debug.WriteLine("Action: " + action);
+        if (action == "Camera")
         {
-            PickerTitle = "Pick Image please",
-            FileTypes = FilePickerFileType.Images
+            var result = await MediaPicker.CapturePhotoAsync();
+            if (result != null)
+            {
+                var stream = await result.OpenReadAsync();
+                ProfilePic.Source = ImageSource.FromStream(() => stream);
 
-        }) ;
+            }
 
-        if (result == null)
+        }else if(action == "Files")
         {
-            
-            return;
+            var result = await FilePicker.PickAsync(new PickOptions
+            {
+                PickerTitle = "Pick Image please",
+                FileTypes = FilePickerFileType.Images
+
+            });
+
+            if (result == null)
+            {
+
+                return;
+            }
+
+            var stream = await result.OpenReadAsync();
+            ProfilePic.Source = ImageSource.FromStream(() => stream);
+
+
         }
 
-        var stream = await result.OpenReadAsync();
-        ProfilePic.Source = ImageSource.FromStream(() => stream);
 
     }
 
