@@ -45,7 +45,7 @@ namespace work4hire.ViewModel
                     userDetails.RoleID = user.Status;
                     userDetails.RoleText = "User";
                     userDetails.FullName = user.FirstName+" "+user.LastName;
-                    Preferences.Set("user", JsonConvert.SerializeObject(content));
+                    Preferences.Set("user", JsonConvert.SerializeObject(content)); // storing firebase token in maui storage
                     await AppConstant.AddFlyoutMenusDetails();
                 }
                 catch (Exception ex)

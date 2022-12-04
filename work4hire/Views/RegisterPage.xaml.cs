@@ -34,6 +34,7 @@ public partial class RegisterPage : ContentPage
         catch (Exception ex)
         {
             // Unable to get location
+            Console.WriteLine(ex);
         }
         finally
         {

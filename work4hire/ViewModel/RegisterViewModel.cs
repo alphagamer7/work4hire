@@ -32,7 +32,6 @@ namespace work4hire.ViewModel
         {
             if (!string.IsNullOrWhiteSpace(FirstName) && !string.IsNullOrWhiteSpace(Password))
             {
-                //TODO: add dynamic address
                 User newUser = new User(FirstName, LastName,Password, Email, "97 ashgove", "");
                 await DataStore.RegisterUser(newUser);
                

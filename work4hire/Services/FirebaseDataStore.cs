@@ -11,12 +11,10 @@ namespace work4hire.Services
     public class FirebaseDataStore: IFirebaseDataStore<User>
     {
 
-        private static string BaseUrl => "https://work4hire.herokuapp.com";
+        private static string BaseUrl => AppConstant.baseUrl;
         IWebClientService service = DependencyService.Get<IWebClientService>();
 
-        public FirebaseDataStore()
-        {
-        }
+        public FirebaseDataStore(){}
 
         public async Task<User> RegisterUser(User user)
         {
@@ -62,6 +60,7 @@ namespace work4hire.Services
                 title = project.Title,
                 category = project.Category,
                 description = project.Description,
+                image= project.Image,
                 distance = project.Distance,
                 status = project.Status,
                 Latitude = project.Latitude,
@@ -76,7 +75,6 @@ namespace work4hire.Services
 
         public async Task<List<Project>> GetProjectList()
         {
-
             string content = JsonConvert.SerializeObject(new {});
 
             string json = await service.PostAsync(BaseUrl + "/projects", content, "application/json");

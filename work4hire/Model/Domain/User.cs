@@ -38,6 +38,7 @@ namespace work4hire.Model
 
         }
     }
+
     public class UserResponse
     {
         public User user { get; set; }
