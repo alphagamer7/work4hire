@@ -10,7 +10,7 @@
 
 <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
         <Label Text="Login" FontSize="30" TextColor="#480032"/>
-        <Label  Text="Email" TextColor="#181818"  />
+        <Label  Text="Email" TextColor="#480032"  />
         <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
         <Label  Text="Password" TextColor="#480032" />
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />

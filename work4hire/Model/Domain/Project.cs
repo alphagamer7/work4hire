@@ -1,5 +1,4 @@
 ﻿using System;
-//using static Java.Util.Jar.Attributes;
 
 namespace work4hire.Model
 {
@@ -8,10 +7,11 @@ namespace work4hire.Model
         public int ProjectId { get; set; }
         public string Category { get; set; }
         public string Title { get; set; }
+        public string Image { get; set; }
         public string Description { get; set; }
         public string ProjectAddress { get; set; }
-        public int CreatedDate { get; set; } // Stroing date in unix format
-        public int EditedDate { get; set; } // Stroing date in unix format
+        public double CreatedDate { get; set; } // Stroing date in unix format
+        public double EditedDate { get; set; } // Stroing date in unix format
         public int AssignedWorkerId { get; set; }
         public int Distance { get; set; }
         public int Status { get; set; }

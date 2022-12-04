@@ -34,10 +34,23 @@ public partial class RegisterPage : ContentPage
         catch (Exception ex)
         {
             // Unable to get location
+            Console.WriteLine(ex);
         }
         finally
         {
             _isCheckingLocation = false;
         }
     }
+
+    void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+    {
+        handleNavigation();
+    }
+
+    async void handleNavigation()
+    {
+        await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+    }
+
+
 }

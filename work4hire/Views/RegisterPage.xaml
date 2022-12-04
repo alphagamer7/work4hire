@@ -5,20 +5,24 @@
              Title="RegisterPage">
     <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
         <Label Text="Register" FontSize="30" TextColor="#480032"/>
-        <Label  Text="Email" TextColor="#181818"  />
+        <Label  Text="Email" TextColor="#480032"  />
         <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
-        <Label  Text="password" TextColor="#480032" />
+        <Label  Text="Password" TextColor="#480032" />
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
         <Label  Text="First Name" TextColor="#480032" />
         <Entry Text="{Binding FirstName}" x:Name="FirstName" />
         <Label  Text="Last Name" TextColor="#480032" />
         <Entry Text="{Binding LastName}" x:Name="LastName" />
-
         <Button x:Name="Register" Command="{Binding RegisterCommand}" Text="Register" BackgroundColor="#480032" />
 
         <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
-            <Label Text="Don't have account?" TextColor="Gray" />
-            <Label Text="Sign Up here" TextColor="#50b3f2" />
+            <Label Text="Already have an account?" TextColor="Gray" />
+            <Label Text="Login here" TextColor="#50b3f2" >
+            <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"
+                              NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

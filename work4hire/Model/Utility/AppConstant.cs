@@ -10,12 +10,14 @@ namespace work4hire.Model
     public class AppConstant
     {
         public static string WebApiKey = "AIzaSyB3NAEFWuXtyP7iGvxJCz8Bs7TA7EGFo7E";
+        public static string baseUrl = "https://work4hire.herokuapp.com";
         public async static Task AddFlyoutMenusDetails()
         {
             AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
 
-            var studentDashboardInfo = AppShell.Current.Items.Where(f => f.Route == nameof(HomePage)).FirstOrDefault();
-            if (studentDashboardInfo != null) AppShell.Current.Items.Remove(studentDashboardInfo);
+            var homePageInfo = AppShell.Current.Items.Where(f => f.Route == nameof(HomePage)).FirstOrDefault();
+            if (homePageInfo != null) AppShell.Current.Items.Remove(homePageInfo);
+
 
 
             var flyoutItem = new FlyoutItem()
