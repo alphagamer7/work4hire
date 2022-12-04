@@ -11,7 +11,7 @@
             FlyoutItemIsVisible="False"
             Shell.FlyoutBehavior="Disabled"
             ContentTemplate="{DataTemplate views:LoginPage}"
-            Route="MainPage" />
+            Route="LoginPage" />
 
     <ShellContent
             Shell.TabBarIsVisible="false"

@@ -3,10 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="work4hire.Views.AddJobPage"
              Title="AddJobPage">
-    <VerticalStackLayout>
+    <VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
         <Label 
             Text="Add new job"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label Text="Category" FontSize="20" TextColor="#480032"/>
+        <Entry Text="{Binding Category}" x:Name="Category"/>
+        <Label  Text="Title" FontSize='20' TextColor="#480032"  />
+        <Entry Text="{Binding Title}" x:Name="Title" />
+        <Label  Text="Description" TextColor="#480032" />
+        <Entry Text="{Binding Description}" x:Name="Description" />
+          <Button x:Name="Save" Command="{Binding SaveCommand}" Text="Save" BackgroundColor="#480032" />
     </VerticalStackLayout>
 </ContentPage>

@@ -41,4 +41,16 @@ public partial class RegisterPage : ContentPage
             _isCheckingLocation = false;
         }
     }
+
+    void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+    {
+        handleNavigation();
+    }
+
+    async void handleNavigation()
+    {
+        await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+    }
+
+
 }
