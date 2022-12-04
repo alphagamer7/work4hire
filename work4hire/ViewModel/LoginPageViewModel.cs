@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Input;
 using Firebase.Auth;
 using Newtonsoft.Json;
 using work4hire.Model;
+using work4hire.Services;
 using work4hire.Views;
 using User = work4hire.Model.User;
 
@@ -11,6 +12,9 @@ namespace work4hire.ViewModel
 {
 	public partial class LoginPageViewModel : BaseViewModel
     {
+
+        public IFirebaseDataStore<User> DataStore => DependencyService.Get<IFirebaseDataStore<User>>();
+
         public string webApiKey = AppConstant.WebApiKey;
 
         [ObservableProperty]
@@ -26,32 +30,28 @@ namespace work4hire.ViewModel
             if (!string.IsNullOrWhiteSpace(Email) && !string.IsNullOrWhiteSpace(Password))
             {
                 User loginUser = new User(Email, Password);
-
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(webApiKey));
                 try
                 {
                     var auth = await authProvider.SignInWithEmailAndPasswordAsync(loginUser.Email, loginUser.Password);
                     var content = await auth.GetFreshAuthAsync();
-                    var serializedContent = JsonConvert.SerializeObject(content);
-                    Preferences.Set("FreshFirebaseToken", serializedContent);
+                    Preferences.Set("FreshFirebaseToken", JsonConvert.SerializeObject(content)); // storing firebase token in maui storage
+
                     var userDetails = new UserBasicInfo();
-                    userDetails.Email = loginUser.Email;
-                    userDetails.RoleID = 1;
-                    userDetails.RoleText = loginUser.Email;
-                    userDetails.FullName = "User";
+                    User user = await DataStore.LoginUser(loginUser);
 
                     App.UserDetails = userDetails;
-
+                    userDetails.Email = user.Email;
+                    userDetails.RoleID = user.Status;
+                    userDetails.RoleText = "User";
+                    userDetails.FullName = user.FirstName+" "+user.LastName;
+                    Preferences.Set("user", JsonConvert.SerializeObject(content));
                     await AppConstant.AddFlyoutMenusDetails();
-
                 }
                 catch (Exception ex)
                 {
-                    await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-                    throw;
+                    await App.Current.MainPage.DisplayAlert("Alert", "Invalid username or password", "OK");
                 }
-
-
             }
 
         }

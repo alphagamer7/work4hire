@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Maui;
+using work4hire.Services;
 using work4hire.ViewModel;
 using work4hire.Views;
 
@@ -32,8 +33,6 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<AddJobPage>();
         builder.Services.AddSingleton<AddJobsViewModel>();
-
-        //AddJobsViewModel
 
         builder.Services.AddSingleton<favorites>();
 

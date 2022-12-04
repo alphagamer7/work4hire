@@ -35,7 +35,7 @@ namespace work4hire.ViewModel
                 //TODO: add dynamic address
                 User newUser = new User(FirstName, LastName,Password, Email, "97 ashgove", "");
                 await DataStore.RegisterUser(newUser);
-                await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+               
             }
 
         }
