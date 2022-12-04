@@ -15,15 +15,9 @@ public partial class AddJobPage : ContentPage
         this.BindingContext = viewModel;
     }
 
-
-    void OnTapGestureRecognizerTapped(object sender, EventArgs args)
-    {
-        handleNavigation();
-    }
-
     async void handleNavigation()
     {
-        await Shell.Current.GoToAsync($"//{nameof(RegisterPage)}");
+        await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
     }
 
 }
