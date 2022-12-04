@@ -15,33 +15,32 @@
                     WidthRequest="100"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                        <Image Source="user.png"
-                    Aspect="AspectFill"
-                    Margin="-40"
-                    HeightRequest="100"
-                    WidthRequest="100" />
+                    VerticalOptions="Center"
+                           >
+                          <ImageButton x:Name="ProfilePic"
+                                       Clicked="editProfilePic"
+                                        Aspect="AspectFill"
+                                        Margin="-40"
+                                        HeightRequest="100"
+                                        WidthRequest="100"
+                             />
                     </Frame>
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="firstName" Text="Shubham" IsEnabled="False"></Entry>
+                        <Entry x:Name="firstName" Text="{Binding _firstName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Last Name: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="lastName" Text="Dhamane" IsEnabled="False"></Entry>
+                        <Label Text="Last Name:" FontSize="24" TextColor="Gray"/>
+                        <Entry x:Name="lastName" Text="{Binding _lastName}" ></Entry>
                     </HorizontalStackLayout>
 
-                    <HorizontalStackLayout Spacing="10">
-                        <Label Text="Contact No: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="contactNo" Text="+1335 333 3333" IsEnabled="False"></Entry>
-                    </HorizontalStackLayout>
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="Email: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="email" Text="xyz@cambrian.ca" IsEnabled="False"></Entry>
+                        <Label x:Name='email' ></Label>
                     </HorizontalStackLayout>
                     
-                    <Button x:Name="edit" Text="Edit"  Clicked="editDetails"/>
+                    <Button x:Name="edit" Text="Edit" Command="{Binding SubmitCommand}"/>
               
                     
 

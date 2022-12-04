@@ -20,11 +20,12 @@ public static class MauiProgram
 			});
 
         //pages
-		builder.Services.AddSingleton<LoginPage>();
+	builder.Services.AddSingleton<LoginPage>();
         builder.Services.AddSingleton<HomePage>();
         builder.Services.AddSingleton<RegisterPage>();
         builder.Services.AddSingleton<AddJobPage>();
         builder.Services.AddSingleton<favorites>();
+        builder.Services.AddSingleton<ProfilePage>();
 
         //View model
         builder.Services.AddSingleton<LoginPageViewModel>();
@@ -32,6 +33,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<HomePageViewModel>();
         builder.Services.AddSingleton<RegisterViewModel>();
         builder.Services.AddSingleton<AddJobsViewModel>();
+        builder.Services.AddSingleton<ProfilePageViewModel>();
 
         return builder.Build();
 	}
