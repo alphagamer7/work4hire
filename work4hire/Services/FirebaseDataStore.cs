@@ -84,10 +84,10 @@ namespace work4hire.Services
             return buildProjectList(json);
         }
 
-        public dynamic buildProjectList(string projects)
+        public List<Project> buildProjectList(string projects)
         {
-            var response = JsonConvert.DeserializeObject<List<Project>>(projects);
-            return response;
+            var response = JsonConvert.DeserializeObject<ProjectListResponse>(projects);
+            return response.jobs;
         }
     }
 }
