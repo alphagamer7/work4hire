@@ -61,23 +61,25 @@ namespace work4hire.Services
                 category = project.Category,
                 description = project.Description,
                 image= project.Image,
-                distance = project.Distance,
-                status = project.Status,
-                Latitude = project.Latitude,
-                Longitude = project.Longitude,
-
+                latitude = project.Latitude,
+                longitude = project.Longitude,
             });
 
-            string json = await service.PostAsync(BaseUrl + "/projects/add", content, "application/json");
+            string json = await service.PostAsync(BaseUrl + "/project/add", content, "application/json");
+            return buildProject(json);
+        }
 
-            return buildUser(json);
+        public dynamic buildProject(string json)
+        {
+            var response = JsonConvert.DeserializeObject<ProjectResponse>(json);
+            return response.job;
         }
 
         public async Task<List<Project>> GetProjectList()
         {
             string content = JsonConvert.SerializeObject(new {});
 
-            string json = await service.PostAsync(BaseUrl + "/projects", content, "application/json");
+            string json = await service.PostAsync(BaseUrl + "/project/all", content, "application/json");
 
             return buildProjectList(json);
         }

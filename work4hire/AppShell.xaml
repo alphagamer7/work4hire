@@ -28,7 +28,7 @@
         
     <Shell.FlyoutFooter>
         <StackLayout Padding="20">
-            <Button Text="Sign Out" Command="{Binding SignOutCommand}" />
+            <Button Text="Sign Out" Clicked="HandleSignOut" />
         </StackLayout>
     </Shell.FlyoutFooter>
 

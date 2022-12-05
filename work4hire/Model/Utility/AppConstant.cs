@@ -10,6 +10,7 @@ namespace work4hire.Model
     public class AppConstant
     {
         public static string WebApiKey = "AIzaSyB3NAEFWuXtyP7iGvxJCz8Bs7TA7EGFo7E";
+        public static string FirebaseStorage = "work4hire-8a56a.appspot.com";
         public static string baseUrl = "https://work4hire.herokuapp.com";
         public async static Task AddFlyoutMenusDetails()
         {

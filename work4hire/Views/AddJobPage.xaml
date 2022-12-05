@@ -2,18 +2,64 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="work4hire.Views.AddJobPage"
-             Title="AddJobPage">
-			<VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
-				<Label FontSize="20" 
-					   Text="Add new job"
-						VerticalOptions="Center" 
-						HorizontalOptions="Center" />
-				<Label Text="Category" TextColor="#480032"/>
-				<Entry Text="{Binding Category}" x:Name="Category"/>
+             Title="Add New Job">
+			<VerticalStackLayout Padding="30, 30, 30, 30">				
 				<Label  Text="Title"  TextColor="#480032"  />
-				<Entry Text="{Binding Title}" x:Name="Title" />
+				<Entry Text="{Binding Title}" Placeholder="Enter Title" x:Name="JobTitle" />
 				<Label  Text="Description" TextColor="#480032" />
-				<Entry Text="{Binding Description}" x:Name="Description" />
-				<Button x:Name="Save" Command="{Binding SaveCommand}" Text="Save" BackgroundColor="#480032" />
+                <Editor x:Name="Description"
+                        Text="{Binding Description}"
+                        Placeholder="Enter Description"
+                        HeightRequest="60"
+                 />
+                <Label Text="Category" TextColor="#480032"/>
+				<Entry Text="{Binding Category}" Placeholder="Enter Category" x:Name="Category"/>
+
+				<Label  Text="Job image" TextColor="#480032" />
+				<Frame Margin="10"
+                    BorderColor="Black"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                           >
+					<ImageButton
+						x:Name="JobImage"
+                        Clicked="AddJobImage"
+                        Aspect="AspectFill"
+                        Margin="-40"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                    />
+			     </Frame>
+				<Grid ColumnSpacing="4">
+			        <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+					<Button
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        x:Name="Add"
+                        Command="{Binding AddJobCommand}"
+                        Text="Save"
+                        BackgroundColor="#480032" />
+					<Button
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        x:Name="Cancel"
+                        Command="{Binding HandleCancelAddCommand}"
+                        Text="Cancel"
+                        BackgroundColor="Gray" />
+				</Grid>
 			</VerticalStackLayout>
 </ContentPage>
