@@ -20,7 +20,7 @@ public static class MauiProgram
 			});
 
         //pages
-	builder.Services.AddSingleton<LoginPage>();
+	    builder.Services.AddSingleton<LoginPage>();
         builder.Services.AddSingleton<HomePage>();
         builder.Services.AddSingleton<RegisterPage>();
         builder.Services.AddSingleton<AddJobPage>();
@@ -28,6 +28,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<ProfilePage>();
 
         //View model
+        builder.Services.AddSingleton<AppShellViewModel>();
         builder.Services.AddSingleton<LoginPageViewModel>();
         builder.Services.AddSingleton<MainPageViewModel>();
         builder.Services.AddSingleton<HomePageViewModel>();

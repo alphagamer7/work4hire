@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Diagnostics;
 using CommunityToolkit.Maui.Views;
-using Firebase.Auth;
-using FirebaseAdmin.Auth;
 using Newtonsoft.Json;
 
 namespace work4hire.Views;
 
 public partial class ProfilePage : ContentPage
 {
-    int count = 0;
 
-	public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
-	{
-		InitializeComponent();
+    public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
+    {
+        InitializeComponent();
         this.BindingContext = viewModel;
         GetProfileInfoAsync();
 
@@ -32,7 +29,7 @@ public partial class ProfilePage : ContentPage
 
 
         //if (count == 0) {
-    
+
         //    firstName.IsEnabled = true;
         //    lastName.IsEnabled = true;
         //    contactNo.IsEnabled = true;
@@ -53,7 +50,7 @@ public partial class ProfilePage : ContentPage
         //    count = 0;
         //}
 
-        
+
 
     }
 
@@ -71,7 +68,8 @@ public partial class ProfilePage : ContentPage
 
             }
 
-        }else if(action == "Files")
+        }
+        else if (action == "Files")
         {
             var result = await FilePicker.PickAsync(new PickOptions
             {
@@ -80,19 +78,11 @@ public partial class ProfilePage : ContentPage
 
             });
 
-            if (result == null)
-            {
-
-                return;
-            }
+            if (result == null)return;
 
             var stream = await result.OpenReadAsync();
             ProfilePic.Source = ImageSource.FromStream(() => stream);
-
-
         }
-
-
     }
 
 

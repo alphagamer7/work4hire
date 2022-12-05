@@ -35,7 +35,7 @@ namespace work4hire.ViewModel
                 {
                     var auth = await authProvider.SignInWithEmailAndPasswordAsync(loginUser.Email, loginUser.Password);
                     var content = await auth.GetFreshAuthAsync();
-                    Preferences.Set("FreshFirebaseToken", JsonConvert.SerializeObject(content)); // storing firebase token in maui storage
+                    Preferences.Set("FirebaseToken", JsonConvert.SerializeObject(content)); // storing firebase token in maui storage
 
                     var userDetails = new UserBasicInfo();
                     User user = await DataStore.LoginUser(loginUser);

@@ -38,7 +38,7 @@ namespace work4hire.ViewModel
 
         #region Commands
         [RelayCommand]
-        async void Submit()
+        void Submit()
         {
             Console.Write(FirstName);
             Console.Write(LastName);
