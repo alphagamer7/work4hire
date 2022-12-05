@@ -4,7 +4,7 @@ namespace work4hire.Model
 {
 	public class Project
 	{
-        public int ProjectId { get; set; }
+        public string ProjectId { get; set; }
         public string Category { get; set; }
         public string Title { get; set; }
         public string Image { get; set; }
@@ -19,7 +19,7 @@ namespace work4hire.Model
         public double Longitude { get; set; }
         public Boolean isArchived { get; set; }
 
-        public Project(int projectId, string category, string title, string description, string projectAddress, int createdDate, int editedDate, int assignedWorkerId, int distance, int status, int latitude, int longitude)
+        public Project(string projectId, string category, string title, string description, string projectAddress, int createdDate, int editedDate, int assignedWorkerId, int distance, int status, int latitude, int longitude)
 		{
             ProjectId = projectId;
             ProjectAddress = projectAddress;
@@ -45,18 +45,36 @@ namespace work4hire.Model
             Longitude = longitude;
         }
 
+        public Project(string projectId, string title, string category, string description, string image,double latitude, double longitude)
+        {
+            Category = category;
+            Title = title;
+            Description = description;
+            Image = image;
+            Latitude = latitude;
+            Longitude = longitude;
+            ProjectId = projectId;
+        }
+
         public Project()
         {
 
         }
+
+     
     }
 
     public class ProjectResponse
     {
         public bool status { get; set; }
         public Project job { get; set; }
-
-
     }
+
+    public class ProjectListResponse
+    {
+        public bool status { get; set; }
+        public List<Project> jobs { get; set; }
+    }
+
 }
 

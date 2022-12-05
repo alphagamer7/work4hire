@@ -32,6 +32,7 @@ public partial class AddJobPage : ContentPage
         await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
     }
 
+    // TODO: refactor code
     async void AddJobImage(Object sender,EventArgs e)
     {
         string action = await DisplayActionSheet("Open With", "Cancel", null, "Camera", "Files");

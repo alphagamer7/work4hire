@@ -32,36 +32,6 @@
 
         </ScrollView>
     </StackLayout>
-           <!--<Border Grid.Row="2"
-                    Grid.Column="1"
-                    StrokeThickness="0"
-                    Padding="10"
-                    BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}"
-                    HorizontalOptions="Center">
-       <Grid RowDefinitions="*" ColumnDefinitions="*,*,*"
-                  ColumnSpacing="50"
-                  VerticalOptions="Center">
-                    <ImageButton Grid.Column="0" Source="todo" HeightRequest="35"
-                                 WidthRequest="30" HorizontalOptions="Center" VerticalOptions="Center" 
-                                 Command="{Binding GotoMainPageCommand}"/>
-                    <Border Grid.Column="1"
-                        StrokeThickness="0" StrokeShape="RoundRectangle 10"
-                        BackgroundColor="CadetBlue"
-                        HeightRequest="48" WidthRequest="48">
-                        <Border.Shadow>
-                            <Shadow Brush="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}"
-                            Radius="5"
-                            Opacity="0.3"/>
-                        </Border.Shadow>
-                        <ImageButton Source="add" HeightRequest="32" WidthRequest="22" 
-                                     HorizontalOptions="Center" VerticalOptions="Center"
-                                     Command="{Binding AddTappedCommand}"/>
-                    </Border>
-                    <ImageButton Grid.Column="2" Source="setting" HeightRequest="35"
-                                 WidthRequest="30"
-                                 HorizontalOptions="Center" VerticalOptions="Center" />
-                </Grid>
-           </Border>-->
         <Button
                 Command="{Binding FabIconClickCommand}"
                 Text="Add"
