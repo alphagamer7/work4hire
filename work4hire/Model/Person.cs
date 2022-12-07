@@ -15,5 +15,5 @@ namespace work4hire.Model
         public int EditedDate { get; set; } // Stroing date in unix format
 
     }
-}
+} // d
 
