@@ -201,7 +201,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -218,7 +222,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -2228,7 +2236,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -2245,7 +2257,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -4255,7 +4271,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -4272,7 +4292,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -6282,7 +6306,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -6299,7 +6327,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -8309,7 +8341,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -8326,7 +8362,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -10336,7 +10376,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -10353,7 +10397,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12363,7 +12411,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -12380,7 +12432,11 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -14381,14 +14437,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -14684,14 +14748,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -14987,14 +15059,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -15290,14 +15370,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -15593,14 +15681,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -15896,14 +15992,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -16199,14 +16303,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -16502,14 +16614,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -16805,14 +16925,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -17108,14 +17236,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -17411,14 +17547,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -17714,14 +17858,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -18017,14 +18169,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -18320,14 +18480,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies/6.0.547": {
+=======
+      "Microsoft.Maui.Dependencies/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.Maui.Extensions/6.0.547": {
+=======
+      "Microsoft.Maui.Extensions/6.0.541": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -18736,6 +18904,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< Updated upstream
     "Microsoft.Maui.Dependencies/6.0.547": {
       "sha512": "3RTnfV1t3h7kN2eGvGnQNQgWbU+m0Ne80omyNaYrUyzlur7HOw3/D85jCxhPkRHNaah2dWsbiZnxoTEU3uPdoA==",
       "type": "package",
@@ -18755,6 +18924,27 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "microsoft.maui.extensions.6.0.547.nupkg.sha512",
+=======
+    "Microsoft.Maui.Dependencies/6.0.541": {
+      "sha512": "9QJGkpTcPhZHrDmWfxoSUJjjCRLt0IpLz0NSKUqpWTj4D8UbOqrOKIOCO3duyc5xQ2J4mTgzA7H7zdzWZfrdBg==",
+      "type": "package",
+      "path": "microsoft.maui.dependencies/6.0.541",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.maui.dependencies.6.0.541.nupkg.sha512",
+        "microsoft.maui.dependencies.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Extensions/6.0.541": {
+      "sha512": "Hpj5ao4T92gb2nEfpqsSOoJmsyP0i+29gpF+mZEa8QjAiwfvN5C1ZckYJY9k8Ir5nqYIjMvHgkwUh6CuR6Ui/w==",
+      "type": "package",
+      "path": "microsoft.maui.extensions/6.0.541",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.maui.extensions.6.0.541.nupkg.sha512",
+>>>>>>> Stashed changes
         "microsoft.maui.extensions.nuspec"
       ]
     },
@@ -20809,16 +20999,26 @@
     "net6.0-android31.0": [
       "CommunityToolkit.Maui >= 1.3.0",
       "CommunityToolkit.Mvvm >= 8.0.0",
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies >= 6.0.547",
       "Microsoft.Maui.Extensions >= 6.0.547",
+=======
+      "Microsoft.Maui.Dependencies >= 6.0.541",
+      "Microsoft.Maui.Extensions >= 6.0.541",
+>>>>>>> Stashed changes
       "Newtonsoft.Json >= 13.0.1",
       "Refractored.MvvmHelpers >= 1.6.2"
     ],
     "net6.0-ios16.0": [
       "CommunityToolkit.Maui >= 1.3.0",
       "CommunityToolkit.Mvvm >= 8.0.0",
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies >= 6.0.547",
       "Microsoft.Maui.Extensions >= 6.0.547",
+=======
+      "Microsoft.Maui.Dependencies >= 6.0.541",
+      "Microsoft.Maui.Extensions >= 6.0.541",
+>>>>>>> Stashed changes
       "Newtonsoft.Json >= 13.0.1",
       "Refractored.MvvmHelpers >= 1.6.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
@@ -20826,8 +21026,13 @@
     "net6.0-maccatalyst15.4": [
       "CommunityToolkit.Maui >= 1.3.0",
       "CommunityToolkit.Mvvm >= 8.0.0",
+<<<<<<< Updated upstream
       "Microsoft.Maui.Dependencies >= 6.0.547",
       "Microsoft.Maui.Extensions >= 6.0.547",
+=======
+      "Microsoft.Maui.Dependencies >= 6.0.541",
+      "Microsoft.Maui.Extensions >= 6.0.541",
+>>>>>>> Stashed changes
       "Newtonsoft.Json >= 13.0.1",
       "Refractored.MvvmHelpers >= 1.6.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
@@ -20856,8 +21061,12 @@
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
+<<<<<<< Updated upstream
         "https://api.nuget.org/v3/index.json": {},
         "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe": {}
+=======
+        "https://api.nuget.org/v3/index.json": {}
+>>>>>>> Stashed changes
       },
       "frameworks": {
         "net6.0-android31.0": {
@@ -20893,12 +21102,20 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -20944,6 +21161,7 @@
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+<<<<<<< Updated upstream
             "version": "[6.0.11, 6.0.11]"
           },
           {
@@ -20993,6 +21211,41 @@
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.android-x86",
             "version": "[6.0.11, 6.0.11]"
+=======
+            "version": "[6.0.10, 6.0.10]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+            "version": "[6.0.10, 6.0.10]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[6.0.10, 6.0.10]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.android",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.android",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.android",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.android",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.android",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.android",
+            "version": "[6.0.541, 6.0.541]"
+>>>>>>> Stashed changes
           }
         ],
         "frameworkReferences": {
@@ -21012,7 +21265,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       },
       "net6.0-ios16.0": {
         "targetAlias": "net6.0-ios",
@@ -21027,12 +21284,20 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -21063,6 +21328,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref",
+<<<<<<< Updated upstream
             "version": "[16.0.527, 16.0.527]"
           },
           {
@@ -21092,6 +21358,37 @@
           {
             "name": "Microsoft.Maui.Essentials.Runtime.ios",
             "version": "[6.0.547, 6.0.547]"
+=======
+            "version": "[16.0.523, 16.0.523]"
+          },
+          {
+            "name": "Microsoft.iOS.Runtime.iossimulator-x64",
+            "version": "[16.0.523, 16.0.523]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.ios",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.ios",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.ios",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.ios",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.ios",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.ios",
+            "version": "[6.0.541, 6.0.541]"
+>>>>>>> Stashed changes
           }
         ],
         "frameworkReferences": {
@@ -21111,7 +21408,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       },
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
@@ -21126,12 +21427,20 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[6.0.547, )",
+=======
+            "version": "[6.0.541, )",
+>>>>>>> Stashed changes
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -21163,6 +21472,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref",
+<<<<<<< Updated upstream
             "version": "[15.4.471, 15.4.471]"
           },
           {
@@ -21192,6 +21502,37 @@
           {
             "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
             "version": "[6.0.547, 6.0.547]"
+=======
+            "version": "[15.4.465, 15.4.465]"
+          },
+          {
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
+            "version": "[15.4.465, 15.4.465]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Ref.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+          },
+          {
+            "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
+            "version": "[6.0.541, 6.0.541]"
+>>>>>>> Stashed changes
           }
         ],
         "frameworkReferences": {
@@ -21211,7 +21552,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     },
     "runtimes": {

@@ -28,6 +28,7 @@ build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
+<<<<<<< Updated upstream
 [/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/ResourceDictionary.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.ResourceDictionary.xaml
@@ -40,6 +41,8 @@ build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/StandardDictionary.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/StandardDictionary.xaml
 
+=======
+>>>>>>> Stashed changes
 [/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.Styles.xaml

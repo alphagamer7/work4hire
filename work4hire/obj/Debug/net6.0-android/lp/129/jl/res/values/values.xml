@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     <attr format="enum" name="splitLayoutDirection">
         <enum name="locale" value="0"/>
         <enum name="ltr" value="1"/>
@@ -57,4 +58,6 @@
         <attr name="splitMinSmallestWidth"/>
         <attr name="splitLayoutDirection"/>
     </declare-styleable>
+=======
+>>>>>>> Stashed changes
 </resources>

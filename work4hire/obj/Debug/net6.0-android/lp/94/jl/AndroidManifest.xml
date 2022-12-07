@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< Updated upstream
  Copyright (C) 2014 The Android Open Source Project
+=======
+ Copyright (C) 2018 The Android Open Source Project
+>>>>>>> Stashed changes
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,6 +19,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< Updated upstream
     package="androidx.core" >
 
     <uses-sdk
@@ -22,5 +27,10 @@
         android:targetSdkVersion="31" />
 
     <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" />
+=======
+    package="androidx.viewpager" >
+
+    <uses-sdk android:minSdkVersion="14" />
+>>>>>>> Stashed changes
 
 </manifest>

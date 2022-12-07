@@ -1,5 +1,8 @@
+<<<<<<< Updated upstream
 CommunityToolkit.Maui.Core.dll
 CommunityToolkit.Maui.dll
+=======
+>>>>>>> Stashed changes
 GoogleGson.dll
 Microsoft.Maui.Controls.Compatibility.dll
 Microsoft.Maui.Controls.dll
@@ -157,3 +160,8 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+<<<<<<< Updated upstream
+=======
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll
+>>>>>>> Stashed changes

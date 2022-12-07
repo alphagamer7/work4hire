@@ -4,6 +4,7 @@ obj/Debug/net6.0-android/resizetizer/r/mipmap-mdpi/appicon_background.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-hdpi/appicon.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-hdpi/appicon_background.png
+<<<<<<< Updated upstream
 obj/Debug/net6.0-android/resizetizer/r/drawable/current_info.png
 obj/Debug/net6.0-android/resizetizer/r/drawable/team.png
 obj/Debug/net6.0-android/resizetizer/r/drawable/more_icon.png
@@ -15,12 +16,15 @@ obj/Debug/net6.0-android/resizetizer/r/drawable/user.png
 obj/Debug/net6.0-android/resizetizer/r/drawable/about_us.png
 obj/Debug/net6.0-android/resizetizer/r/drawable/logo.png
 obj/Debug/net6.0-android/resizetizer/r/drawable/contact_us.png
+=======
+>>>>>>> Stashed changes
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxxhdpi/appicon.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_background.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxhdpi/appicon_foreground.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxhdpi/appicon.png
 obj/Debug/net6.0-android/resizetizer/r/mipmap-xxhdpi/appicon_background.png
+<<<<<<< Updated upstream
 obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/solid_wind.png
 obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/fluent_weather_fog_20_filled.png
 obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/fluent_weather_sunny_low_20_filled.png
@@ -284,5 +288,20 @@ obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/fluent_weather_rain_snow
 obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/tab_home_on.png
 obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/fluent_weather_squalls_20_filled.png
 obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/sm_solid_umbrella.png
+=======
+obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/dotnet_bot.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/splash.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-xxhdpi/dotnet_bot.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-xxhdpi/splash.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-hdpi/dotnet_bot.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-hdpi/splash.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-mdpi/dotnet_bot.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-mdpi/splash.png
+obj/Debug/net6.0-android/resizetizer/r/mipmap-xhdpi/appicon_foreground.png
+obj/Debug/net6.0-android/resizetizer/r/mipmap-xhdpi/appicon.png
+obj/Debug/net6.0-android/resizetizer/r/mipmap-xhdpi/appicon_background.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/dotnet_bot.png
+obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/splash.png
+>>>>>>> Stashed changes
 obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml

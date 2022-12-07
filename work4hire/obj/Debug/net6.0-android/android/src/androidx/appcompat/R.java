@@ -576,6 +576,7 @@ public final class R {
 		public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f070051;
 		public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070052;
 		public static final int abc_textfield_search_material = 0x7f070053;
+<<<<<<< Updated upstream
 		public static final int btn_checkbox_checked_mtrl = 0x7f07005a;
 		public static final int btn_checkbox_checked_to_unchecked_mtrl_animation = 0x7f07005b;
 		public static final int btn_checkbox_unchecked_mtrl = 0x7f07005c;
@@ -587,6 +588,19 @@ public final class R {
 		public static final int test_level_drawable = 0x7f0700d1;
 		public static final int tooltip_frame_dark = 0x7f0700d2;
 		public static final int tooltip_frame_light = 0x7f0700d3;
+=======
+		public static final int btn_checkbox_checked_mtrl = 0x7f070057;
+		public static final int btn_checkbox_checked_to_unchecked_mtrl_animation = 0x7f070058;
+		public static final int btn_checkbox_unchecked_mtrl = 0x7f070059;
+		public static final int btn_checkbox_unchecked_to_checked_mtrl_animation = 0x7f07005a;
+		public static final int btn_radio_off_mtrl = 0x7f07005b;
+		public static final int btn_radio_off_to_on_mtrl_animation = 0x7f07005c;
+		public static final int btn_radio_on_mtrl = 0x7f07005d;
+		public static final int btn_radio_on_to_off_mtrl_animation = 0x7f07005e;
+		public static final int test_level_drawable = 0x7f07009b;
+		public static final int tooltip_frame_dark = 0x7f07009c;
+		public static final int tooltip_frame_light = 0x7f07009d;
+>>>>>>> Stashed changes
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f080034;

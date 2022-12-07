@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     <id name="view_tree_saved_state_registry_owner"/>
+=======
+    <id name="view_tree_view_model_store_owner"/>
+>>>>>>> Stashed changes
 </resources>
