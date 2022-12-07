@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="StandardDictionary">
+
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="TextColor">Gray</Color> 
+            <x:Double x:Key="fontSize">14</x:Double>
+            <Color x:Key="FirstName">Gray</Color>
+            <Color x:Key="LastName">Gray</Color>
+            <Color x:Key="ContactNumber">Gray</Color>
+            <Color x:Key="Email">Gray</Color> 
+            <x:Double x:Key="fontSize">24</x:Double>
+          
+
+
+        <Label x:Name="CreationDate"  Text="CreatedDate"  TextColor="Gray" FontSize="14" />
+        <Label x:Name="CreatedLocation"   Text="Location"   TextColor="Gray" FontSize="14" />
+            
+        <Label x:Name="CreationDate"  Text="CreatedDate"  TextColor="Gray" FontSize="14" />
+        <Label x:Name="Name"  Text="FirstName"  TextColor="Gray" FontSize="24" />
+        <Label x:Name="lastname"  Text="LastName"  TextColor="Gray" FontSize="24" />
+        <Label x:Name="contactno"  Text="ContactNo"  TextColor="Gray" FontSize="24" />
+        <Label x:Name="email"  Text="ContactNo"  TextColor="Gray" FontSize="24" />
+        
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+     
+
+
+
+</ContentPage>
