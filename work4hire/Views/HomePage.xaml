@@ -6,12 +6,13 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="work4hire.Views.HomePage"
              Title="Home Page">
+
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior
                 EventName="Appearing"
                 Command="{Binding PageAppearingCommand}" />
     </ContentPage.Behaviors>
-
+    <Grid>
     <CollectionView ItemsSource="{Binding Projects}">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="models:Project">
@@ -38,7 +39,18 @@
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
-    
+ 
+        <Button
+                Command="{Binding FabIconClickCommand}"
+                Text="Add"
+                HorizontalOptions="End"
+                Padding="10"
+                VerticalOptions="End"
+                    >
+
+
+        </Button>
+        </Grid>
     <!--<Grid>
     <StackLayout>
         <ScrollView>
@@ -68,15 +80,6 @@
 
         </ScrollView>
     </StackLayout>
-        <Button
-                Command="{Binding FabIconClickCommand}"
-                Text="Add"
-                HorizontalOptions="End"
-                Padding="10"
-                VerticalOptions="End"
-                    >
-
-
-        </Button>
+    
     </Grid>-->
 </ContentPage>
