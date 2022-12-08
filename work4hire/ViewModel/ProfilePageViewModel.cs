@@ -56,8 +56,11 @@ namespace work4hire.ViewModel
 
         private void GetProfileInfo()
         {
-            //var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
-            //_email = userInfo.User.Email;
+            var userString = Preferences.Get("user", "");
+
+            var userInfo = JsonConvert.DeserializeObject<User>(Preferences.Get("user", ""));
+            //JsonConvert.DeserializeObject<UserResponse>(user);
+            Console.Write(userString);
         }
 
 

@@ -10,7 +10,7 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
         this.BindingContext = new AppShellViewModel();
-        Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
+        //Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
     }
 
     public async void Connectivity_ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
