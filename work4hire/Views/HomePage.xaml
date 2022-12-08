@@ -43,8 +43,9 @@
         <Button
                 Command="{Binding FabIconClickCommand}"
                 Text="Add"
+                CornerRadius="50"
                 HorizontalOptions="End"
-                Padding="10"
+                Padding="20"
                 VerticalOptions="End"
                     >
 

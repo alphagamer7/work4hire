@@ -35,14 +35,6 @@ namespace work4hire.ViewModel
 
 
 
-
-
-
-        //public string firstname = "Shubham";
-        //public string lastname = "Dhamane";
-        //public string email = "xvy@mycambrian.ca";
-        //public string contactNo = "+1 333 333 3333";
-
         #region Commands
         [RelayCommand]
         void Submit()
@@ -56,11 +48,9 @@ namespace work4hire.ViewModel
 
         private void GetProfileInfo()
         {
-            var userString = Preferences.Get("user", "");
-
-            var userInfo = JsonConvert.DeserializeObject<User>(Preferences.Get("user", ""));
-            //JsonConvert.DeserializeObject<UserResponse>(user);
-            Console.Write(userString);
+            //var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+            var userInfo = JsonConvert.DeserializeObject<User>(Preferences.Get("user", null));
+            _email = "test@gmail.com";
         }
 
 

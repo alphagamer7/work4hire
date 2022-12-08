@@ -19,12 +19,6 @@ namespace work4hire.ViewModel
         [ObservableProperty]
         private string _category;
 
-    //    <Label Text = "Category" TextColor="#480032"/>
-				//<Entry Text = "{Binding Category}" x:Name="Category"/>
-				//<Label Text = "Title"  TextColor="#480032"  />
-				//<Entry Text = "{Binding Title}" x:Name="Title" />
-				//<Label Text = "Description" TextColor="#480032" />
-
         [ObservableProperty] 
         private string _jobTitle;
 
@@ -92,7 +86,8 @@ namespace work4hire.ViewModel
             }
             catch (Exception ex)
             {
-                // Unable to get location
+                // Unable to get location error) Exception .
+                
                 Console.WriteLine(ex);
             }
         }

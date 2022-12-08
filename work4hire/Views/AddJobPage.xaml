@@ -5,6 +5,7 @@
              Title="Add New Job">
 			<VerticalStackLayout Padding="30, 30, 30, 30">				
 				<Label  Text="Title"  TextColor="#480032"  />
+                <!-- Entry property for writing the text in placeholder -->
 				<Entry Text="{Binding Title}" Placeholder="Enter Title" x:Name="JobTitle" />
 				<Label  Text="Description" TextColor="#480032" />
                 <Editor x:Name="Description"
@@ -14,7 +15,7 @@
                  />
                 <Label Text="Category" TextColor="#480032"/>
 				<Entry Text="{Binding Category}" Placeholder="Enter Category" x:Name="Category"/>
-
+                <!--create entry-->
 				<Label  Text="Job image" TextColor="#480032" />
 				<Frame Margin="10"
                     BorderColor="Black"
@@ -22,8 +23,8 @@
                     WidthRequest="150"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                           >
+                    VerticalOptions="Center">
+            <!-- mention frame property its a content control-->               
 					<ImageButton
 						x:Name="JobImage"
                         Clicked="AddJobImage"
@@ -44,9 +45,9 @@
                     </Grid.ColumnDefinitions>
 					<Button
                         HorizontalOptions="End"
-                        VerticalOptions="End"
+                        VerticalOptions="Start"
                         Grid.Row="1"
-                        Grid.Column="2"
+                        Grid.Column="3"
                         x:Name="Add"
                         Command="{Binding AddJobCommand}"
                         Text="Save"
@@ -55,7 +56,7 @@
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
                         Grid.Row="1"
-                        Grid.Column="2"
+                        Grid.Column="3"
                         x:Name="Cancel"
                         Command="{Binding HandleCancelAddCommand}"
                         Text="Cancel"

@@ -6,7 +6,7 @@
   <Grid>
     <StackLayout>
         <ScrollView>
-     
+     <!--Decare the frame property -->
             <Frame>
             <HorizontalStackLayout>
                     <Frame Margin="10"
