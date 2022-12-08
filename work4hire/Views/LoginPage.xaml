@@ -15,8 +15,20 @@
         <Label  Text="Password" TextColor="#480032" />
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
         <Button x:Name="Login" Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#480032" />
-
-        <StackLayout Orientation="Horizontal" Margin="10" Spacing="5" HorizontalOptions="Center">
+    <StackLayout Orientation="Horizontal" Margin="10" Spacing="5" HorizontalOptions="Right">
+        <CheckBox x:Name="checkBox" />
+        <Label Text="Remember Me.">
+    <Label.Triggers>
+        <DataTrigger TargetType="Label"
+                     Binding="{Binding Source={x:Reference checkBox}, Path=IsChecked}"
+                     Value="true">
+            <Setter Property="FontAttributes"
+                    Value="Italic, Bold" />
+            <Setter Property="FontSize"
+                    Value="28" />
+        </DataTrigger>
+    </Label.Triggers>
+        </Label>
             <Label Text="Don't have account?" TextColor="Gray" />
             <Label Text="Sign Up here" TextColor="#50b3f2" >
                 <Label.GestureRecognizers>
