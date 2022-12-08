@@ -23,11 +23,18 @@ namespace work4hire.ViewModel
         [ObservableProperty]
         private string _contactNo;
 
+        public ProfilePageViewModel()
+        {
+            GetProfileInfo();
+
+        }
 
 
 
 
-        
+
+
+
 
 
 
@@ -49,8 +56,8 @@ namespace work4hire.ViewModel
 
         private void GetProfileInfo()
         {
-            var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
-            _email = userInfo.User.Email;
+            //var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+            //_email = userInfo.User.Email;
         }
 
 
