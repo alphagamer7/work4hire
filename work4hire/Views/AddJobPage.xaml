@@ -45,6 +45,7 @@
                     </Grid.ColumnDefinitions>
 					<Button
                         HorizontalOptions="End"
+                        ContentLayout="left, 20" 
                         VerticalOptions="Start"
                         Grid.Row="1"
                         Grid.Column="3"
@@ -60,6 +61,7 @@
                         x:Name="Cancel"
                         Command="{Binding HandleCancelAddCommand}"
                         Text="Cancel"
+                         ContentLayout="left, 20" 
                         BackgroundColor="Gray" />
 				</Grid>
 			</VerticalStackLayout>
