@@ -14,6 +14,13 @@
             Route="LoginPage" />
 
     <ShellContent
+        Shell.TabBarIsVisible="false"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        ContentTemplate="{DataTemplate views:Favourites}"
+        Route="Favourites" />
+
+    <ShellContent
             Shell.TabBarIsVisible="false"
             FlyoutItemIsVisible="False"
             Shell.FlyoutBehavior="Disabled"

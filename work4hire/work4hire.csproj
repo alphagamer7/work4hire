@@ -91,9 +91,6 @@
 	  <MauiXaml Update="Views\Search.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\favorites.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\PostedJobs.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
@@ -119,6 +116,9 @@
 	    <SubType>Designer</SubType>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\AddJobPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Favourites.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>

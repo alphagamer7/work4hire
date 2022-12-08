@@ -44,7 +44,7 @@ namespace work4hire.Model
                     {
                         Icon = "about_us.png",
                         Title = "Favourites",
-                        ContentTemplate = new DataTemplate(typeof(favorites)),
+                        ContentTemplate = new DataTemplate(typeof(Favourites)),
                     },
                    }
             };
