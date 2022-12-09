@@ -25,6 +25,9 @@
                        IsClippedToBounds="True"
                        HorizontalOptions="Center"
                        VerticalOptions="Center">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            </Frame.GestureRecognizers>
                         <Image Source="{Binding Image}"
                          Aspect="AspectFill"
                          Margin="-40"

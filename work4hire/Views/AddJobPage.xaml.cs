@@ -20,7 +20,6 @@ public partial class AddJobPage : ContentPage
         this.viewModel = viewModel;
         this.BindingContext = viewModel;
         handleGeolocation(); // Geolocation manages the user's location
-
     }
 
     public void handleGeolocation()

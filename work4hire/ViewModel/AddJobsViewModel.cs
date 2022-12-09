@@ -56,6 +56,7 @@ namespace work4hire.ViewModel
                 {
                     Project newProject = new Project(Category, Title, Description, DownloadImage, Latitude, Longitude);
                     await DataStore.AddProject(newProject);
+                    await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
                 }
                 catch (Exception ex)
                 {

@@ -34,8 +34,8 @@ public partial class ProfilePage : ContentPage
     //    lastName.Text = userInfo.User.LastName;
 
     //}
-    void editDetails(System.Object sender, System.EventArgs e)
-    {
+    //void editDetails(System.Object sender, System.EventArgs e)
+    //{
 
 
 
@@ -63,7 +63,7 @@ public partial class ProfilePage : ContentPage
 
 
 
-    }
+    //}
 
     async void editProfilePic(System.Object sender, System.EventArgs e)
     {

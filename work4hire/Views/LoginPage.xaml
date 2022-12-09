@@ -14,43 +14,10 @@
         <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
         <Label  Text="Password" TextColor="{StaticResource Primary}" />
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
-        <Button x:Name="Log in" Command="{Binding LoginCommand}"
-
-         Text="Log in" BackgroundColor="{StaticResource Primary}"/>
-
-
-    <Grid RowDefinitions="*,*">
-        <AbsoluteLayout Grid.Row="1">
-        <Label AbsoluteLayout.LayoutBounds="50,100,30,80"    Text="Sign Up here" TextColor="#50b3f2">
-
-
-        </Label>
-
-        </AbsoluteLayout>
-
-    </Grid>
-    <StackLayout Orientation="Horizontal" Margin="10" Spacing="0" HorizontalOptions="Center">
-        <CheckBox x:Name="checkBox" />
-        <Label Text="Remember Me"  Padding="10 10 "        >
-    <Label.Triggers>
-        <DataTrigger TargetType="Label"
-                     Binding="{Binding Source={x:Reference checkBox}, Path=IsChecked}"
-                     Value="true">
-            <Setter Property="FontAttributes"
-                    Value="None" />
-            <Setter Property="FontSize"
-                    Value="28" />
-        </DataTrigger>
-    </Label.Triggers>
-        </Label>
-            <Label Text="Need an account?" TextColor="Gray" Padding="10" VerticalOptions="Center"/>
-        
-
-
-            <Label Text="Sign Up here" TextColor="#50b3f2"
-                   FlexLayout.Order="300"
-                   
-                   VerticalOptions="EndAndExpand">  
+        <Button x:Name="Login" Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#480032" />
+    <StackLayout Orientation="Horizontal" Margin="10" Spacing="15" HorizontalOptions="Center">
+            <Label Text="Don't have account?" TextColor="Gray" />
+            <Label Text="Sign Up here" TextColor="#50b3f2" >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"
                               NumberOfTapsRequired="1" />
