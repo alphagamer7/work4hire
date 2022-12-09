@@ -26,17 +26,17 @@
                              />
                     </Frame>
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
+                        <Label Text="First Name: " FontSize="24" TextColor="{StaticResource Gray400}"/>
                         <Entry x:Name="firstName" Text="{Binding FirstName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Last Name:" FontSize="24" TextColor="Gray"/>
+                        <Label Text="Last Name:" FontSize="24" TextColor="{StaticResource Gray400}"/>
                         <Entry x:Name="lastName" Text="{Binding LastName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Email: " FontSize="24" TextColor="Gray"/>
+                        <Label Text="Email: " FontSize="24" TextColor="{StaticResource Gray400}"/>
                         <Label x:Name='email' Text="{Binding Email}" ></Label>
                     </HorizontalStackLayout>
                     

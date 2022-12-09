@@ -18,7 +18,7 @@
             <DataTemplate x:DataType="models:Project">
                 <HorizontalStackLayout Padding="10">
                     <Frame Margin="10"
-                       BorderColor="Black"
+                       BorderColor="{StaticResource Black}"
                        CornerRadius="10"
                        HeightRequest="100"
                        WidthRequest="100"
@@ -32,8 +32,8 @@
                          WidthRequest="100" />
                     </Frame>
                     <VerticalStackLayout VerticalOptions="Center">
-                        <Label Text="{Binding Title}" FontSize="24" TextColor="Gray"/>
-                        <Label Text="{Binding Category}" FontSize="14" TextColor="Gray"/>
+                        <Label Text="{Binding Title}" FontSize="24" TextColor="{StaticResource Gray400}"/>
+                        <Label Text="{Binding Category}" FontSize="14" TextColor="{StaticResource Gray400}"/>
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
             </DataTemplate>
