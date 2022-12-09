@@ -26,6 +26,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<AddJobPage>();
         builder.Services.AddSingleton<Favourites>();
         builder.Services.AddSingleton<ProfilePage>();
+        builder.Services.AddSingleton<JobDetails>();
 
         //View model
         builder.Services.AddSingleton<AppShellViewModel>();
@@ -35,6 +36,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<RegisterViewModel>();
         builder.Services.AddSingleton<AddJobsViewModel>();
         builder.Services.AddSingleton<ProfilePageViewModel>();
+        builder.Services.AddSingleton<JobDetailsViewModel>();
 
         return builder.Build();
 	}

@@ -16,7 +16,7 @@
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
         <Button x:Name="Login" Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#480032" />
     <StackLayout Orientation="Horizontal" Margin="10" Spacing="15" HorizontalOptions="Center">
-        <CheckBox x:Name="checkBox" />
+        <!--<CheckBox x:Name="checkBox" />
         <Label Text="Remember Me">
     <Label.Triggers>
         <DataTrigger TargetType="Label"
@@ -28,7 +28,7 @@
                     Value="28" />
         </DataTrigger>
     </Label.Triggers>
-        </Label>
+        </Label>-->
             <Label Text="Don't have account?" TextColor="Gray" />
             <Label Text="Sign Up here" TextColor="#50b3f2" >
                 <Label.GestureRecognizers>
