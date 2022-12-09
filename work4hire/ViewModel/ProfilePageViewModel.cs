@@ -17,16 +17,13 @@ namespace work4hire.ViewModel
         public IFirebaseDataStore<User> DataStore => DependencyService.Get<IFirebaseDataStore<User>>();
 
         [ObservableProperty]
-        private string _firstName;
+        public string _firstName;
 
         [ObservableProperty]
-        private string _lastName;
+        public string _lastName="fds";
 
         [ObservableProperty]
-        private string _email;
-
-        [ObservableProperty]
-        private string _contactNo;
+        public string _email="fsds";
 
         public ProfilePageViewModel()
         {
@@ -39,20 +36,9 @@ namespace work4hire.ViewModel
          PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
 
-
-
-
-
-
-
-        //public string firstname = "Shubham";
-        //public string lastname = "Dhamane";
-        //public string email = "xvy@mycambrian.ca";
-        //public string contactNo = "+1 333 333 3333";
-
         #region Commands
         [RelayCommand]
-        void edit()
+        void Submit()
         {
             var new_user = new User();
             new_user.FirstName = _firstName;
@@ -65,6 +51,19 @@ namespace work4hire.ViewModel
 
 
             
+        }
+
+        public string GetFirstName
+        {
+            get => _firstName;
+        }
+        public string GetLastName
+        {
+            get => _lastName;
+        }
+        public string GetEmail
+        {
+            get => _email;
         }
 
         public async void save_details(User newUser)
