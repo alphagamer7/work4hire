@@ -8,7 +8,6 @@
 <Grid>
     <StackLayout>
         <ScrollView>
-     
             <Frame>
             <VerticalStackLayout x:Name="VerticalLayout">
                     <Frame Margin="10"

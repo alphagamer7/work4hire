@@ -20,10 +20,10 @@ namespace work4hire.ViewModel
         public string _firstName;
 
         [ObservableProperty]
-        public string _lastName="fds";
+        public string _lastName;
 
         [ObservableProperty]
-        public string _email="fsds";
+        public string _email;
 
         public ProfilePageViewModel()
         {

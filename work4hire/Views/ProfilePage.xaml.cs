@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
 using CommunityToolkit.Maui.Views;
-using FirebaseAdmin.Auth;
 using Newtonsoft.Json;
 using work4hire.ViewModel;
 namespace work4hire.Views;
@@ -11,19 +10,10 @@ public partial class ProfilePage : ContentPage
 
     public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
     {
-        
-        this.BindingContext = viewModel;
-        _ = GetProfileInfoAsync();
 
-    }
-    private async Task GetProfileInfoAsync()
-    {
-        var userInfo =Preferences.Get("user","");
-        Console.Write(userInfo);
-        //var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
-        //email.Text = userInfo.User.Email;
-        //firstName.Text = userInfo.User.FirstName;
-        //lastName.Text = userInfo.User.LastName;
+        this.BindingContext = viewModel;
+        InitializeComponent();
+        //GetProfileInfoAsync();
 
     }
     //private async Task GetProfileInfoAsync()
@@ -39,27 +29,27 @@ public partial class ProfilePage : ContentPage
 
 
 
-        //if (count == 0) {
+    //if (count == 0) {
 
-        //    firstName.IsEnabled = true;
-        //    lastName.IsEnabled = true;
-        //    contactNo.IsEnabled = true;
-        //    email.IsEnabled = true;
+    //    firstName.IsEnabled = true;
+    //    lastName.IsEnabled = true;
+    //    contactNo.IsEnabled = true;
+    //    email.IsEnabled = true;
 
-        //    edit.Text = "Save";
-        //    count = 1;
-        //}
-        //else
-        //{
-        //    firstName.IsEnabled = false;
-        //    lastName.IsEnabled = false;
-        //    contactNo.IsEnabled = false;
-        //    email.IsEnabled = false;
+    //    edit.Text = "Save";
+    //    count = 1;
+    //}
+    //else
+    //{
+    //    firstName.IsEnabled = false;
+    //    lastName.IsEnabled = false;
+    //    contactNo.IsEnabled = false;
+    //    email.IsEnabled = false;
 
-        //    edit.Text = "Edit";
+    //    edit.Text = "Edit";
 
-        //    count = 0;
-        //}
+    //    count = 0;
+    //}
 
 
 
@@ -89,7 +79,7 @@ public partial class ProfilePage : ContentPage
 
             });
 
-            if (result == null)return;
+            if (result == null) return;
 
             var stream = await result.OpenReadAsync();
             ProfilePic.Source = ImageSource.FromStream(() => stream);
