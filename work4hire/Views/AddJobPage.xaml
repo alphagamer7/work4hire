@@ -52,7 +52,7 @@
                         x:Name="Add"
                         Command="{Binding AddJobCommand}"
                         Text="Save"
-                        BackgroundColor="#480032" />
+                        BackgroundColor="{StaticResource Primary}" />
 					<Button
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
