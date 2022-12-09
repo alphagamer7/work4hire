@@ -27,17 +27,17 @@
                     </Frame>
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="firstName" Text="{Binding FirstName}" ></Entry>
+                        <Entry x:Name="firstName" Text="{Binding _firstName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="Last Name:" FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="lastName" Text="{Binding LastName}" ></Entry>
+                        <Entry x:Name="lastName" Text="{Binding _lastName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="Email: " FontSize="24" TextColor="Gray"/>
-                        <Label x:Name='email' Text="{Binding Email}" ></Label>
+                        <Label x:Name='email' Text="{Binding _email}" ></Label>
                     </HorizontalStackLayout>
                     
                     <Button x:Name="edit" Text="Edit" Command="{Binding SubmitCommand}"/>
