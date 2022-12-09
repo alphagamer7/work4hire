@@ -87,7 +87,8 @@ namespace work4hire.ViewModel
             }
             catch (Exception ex)
             {
-                // Unable to get location
+                // Unable to get location error) Exception .
+                
                 Console.WriteLine(ex);
             }
         }

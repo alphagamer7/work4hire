@@ -6,11 +6,11 @@
   <Grid>
     <StackLayout>
         <ScrollView>
-     
+     <!--Decare the frame property -->
             <Frame>
             <HorizontalStackLayout>
                     <Frame Margin="10"
-                    BorderColor="Black"
+                    BorderColor="{StaticResource Black}"
                     HeightRequest="100"
                     WidthRequest="100"
                     IsClippedToBounds="True"
@@ -23,9 +23,9 @@
                     WidthRequest="100" />
                     </Frame>
                     <VerticalStackLayout VerticalOptions="Center">
-                        <Label Text="Work Title(fav)" FontSize="24" TextColor="Gray"/>
-                        <Label Text="CreatedDate" FontSize="14" TextColor="Gray"/>
-                        <Label Text="Location" FontSize="14" TextColor="Gray"/>
+                        <Label Text="Work Title(fav)" FontSize="24" TextColor="{StaticResource Gray400}"/>
+                        <Label Text="CreatedDate" FontSize="14" TextColor="{StaticResource Gray400}"/>
+                        <Label Text="Location" FontSize="14" TextColor="{StaticResource Gray400}"/>
                     </VerticalStackLayout>
             </HorizontalStackLayout>
             </Frame>

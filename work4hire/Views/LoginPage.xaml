@@ -8,27 +8,14 @@
         <mct:StatusBarBehavior  StatusBarColor="#FFF5E4" StatusBarStyle="DarkContent"/>
  </Page.Behaviors>
 
-<VerticalStackLayout Margin="20" Padding="30, 60, 30, 30">
-        <Label Text="Login" FontSize="30" TextColor="#480032"/>
-        <Label  Text="Email" TextColor="#480032"  />
+<VerticalStackLayout Margin="10" Padding="30, 60, 30, 30">
+        <Label Text="Welcome" FontSize="30" TextColor="{StaticResource Primary}" Padding="20"         />
+        <Label  Text="Email" TextColor="{StaticResource Primary}"  />
         <Entry Text="{Binding Email}" x:Name="Email" Keyboard="Email" />
-        <Label  Text="Password" TextColor="#480032" />
+        <Label  Text="Password" TextColor="{StaticResource Primary}" />
         <Entry Text="{Binding Password}" x:Name="Password" IsPassword="True" />
         <Button x:Name="Login" Command="{Binding LoginCommand}" Text="Login" BackgroundColor="#480032" />
     <StackLayout Orientation="Horizontal" Margin="10" Spacing="15" HorizontalOptions="Center">
-        <!--<CheckBox x:Name="checkBox" />
-        <Label Text="Remember Me">
-    <Label.Triggers>
-        <DataTrigger TargetType="Label"
-                     Binding="{Binding Source={x:Reference checkBox}, Path=IsChecked}"
-                     Value="true">
-            <Setter Property="FontAttributes"
-                    Value="Italic, Bold" />
-            <Setter Property="FontSize"
-                    Value="28" />
-        </DataTrigger>
-    </Label.Triggers>
-        </Label>-->
             <Label Text="Don't have account?" TextColor="Gray" />
             <Label Text="Sign Up here" TextColor="#50b3f2" >
                 <Label.GestureRecognizers>
@@ -38,5 +25,10 @@
             </Label>
         </StackLayout>
 </VerticalStackLayout>
+
+
+
+
+
 </ContentPage>
 

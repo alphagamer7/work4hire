@@ -28,8 +28,6 @@ namespace work4hire.ViewModel
         public ProfilePageViewModel()
         {
             GetProfileInfo();
-            
-
         }
 
         public void OnPropertyChanged([CallerMemberName] string name = "") =>
@@ -48,9 +46,6 @@ namespace work4hire.ViewModel
             new_user.Image = "";
 
             save_details(new_user);
-
-
-            
         }
 
         public string GetFirstName
@@ -71,9 +66,6 @@ namespace work4hire.ViewModel
 
 
             //await DataStore.RegisterUser(newUser);
-
-            
-
         }
         #endregion
 
@@ -92,6 +84,5 @@ namespace work4hire.ViewModel
 
 
     }
-    
 }
 
