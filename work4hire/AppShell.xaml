@@ -15,10 +15,17 @@
 
     <ShellContent
         Shell.TabBarIsVisible="false"
-        FlyoutItemIsVisible="False"
+        FlyoutItemIsVisible="True"
         Shell.FlyoutBehavior="Disabled"
         ContentTemplate="{DataTemplate views:Favourites}"
         Route="Favourites" />
+
+   <ShellContent
+        Shell.TabBarIsVisible="false"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"
+        ContentTemplate="{DataTemplate views:JobDetails}"
+        Route="JobDetails" />
 
     <ShellContent
             Shell.TabBarIsVisible="false"
