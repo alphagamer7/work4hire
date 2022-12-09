@@ -10,7 +10,7 @@ public partial class ProfilePage : ContentPage
 
     public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
     {
-        
+
         this.BindingContext = viewModel;
         InitializeComponent();
         //GetProfileInfoAsync();
@@ -24,36 +24,36 @@ public partial class ProfilePage : ContentPage
     //    lastName.Text = userInfo.User.LastName;
 
     //}
-    void editDetails(System.Object sender, System.EventArgs e)
-    {
+    //void editDetails(System.Object sender, System.EventArgs e)
+    //{
 
 
 
-        //if (count == 0) {
+    //if (count == 0) {
 
-        //    firstName.IsEnabled = true;
-        //    lastName.IsEnabled = true;
-        //    contactNo.IsEnabled = true;
-        //    email.IsEnabled = true;
+    //    firstName.IsEnabled = true;
+    //    lastName.IsEnabled = true;
+    //    contactNo.IsEnabled = true;
+    //    email.IsEnabled = true;
 
-        //    edit.Text = "Save";
-        //    count = 1;
-        //}
-        //else
-        //{
-        //    firstName.IsEnabled = false;
-        //    lastName.IsEnabled = false;
-        //    contactNo.IsEnabled = false;
-        //    email.IsEnabled = false;
+    //    edit.Text = "Save";
+    //    count = 1;
+    //}
+    //else
+    //{
+    //    firstName.IsEnabled = false;
+    //    lastName.IsEnabled = false;
+    //    contactNo.IsEnabled = false;
+    //    email.IsEnabled = false;
 
-        //    edit.Text = "Edit";
+    //    edit.Text = "Edit";
 
-        //    count = 0;
-        //}
+    //    count = 0;
+    //}
 
 
 
-    }
+    //}
 
     async void editProfilePic(System.Object sender, System.EventArgs e)
     {
@@ -79,7 +79,7 @@ public partial class ProfilePage : ContentPage
 
             });
 
-            if (result == null)return;
+            if (result == null) return;
 
             var stream = await result.OpenReadAsync();
             ProfilePic.Source = ImageSource.FromStream(() => stream);

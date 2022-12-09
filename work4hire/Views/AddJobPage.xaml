@@ -4,26 +4,27 @@
              x:Class="work4hire.Views.AddJobPage"
              Title="Add New Job">
 			<VerticalStackLayout Padding="30, 30, 30, 30">				
-				<Label  Text="Title"  TextColor="#480032"  />
+				<Label  Text="Title"  TextColor="{StaticResource Primary}"  />
+                <!-- Entry property for writing the text in placeholder -->
 				<Entry Text="{Binding Title}" Placeholder="Enter Title" x:Name="JobTitle" />
-				<Label  Text="Description" TextColor="#480032" />
+				<Label  Text="Description" TextColor="{StaticResource Primary}" />
                 <Editor x:Name="Description"
                         Text="{Binding Description}"
                         Placeholder="Enter Description"
                         HeightRequest="60"
                  />
-                <Label Text="Category" TextColor="#480032"/>
+                <Label Text="Category" TextColor="{StaticResource Primary}"/>
 				<Entry Text="{Binding Category}" Placeholder="Enter Category" x:Name="Category"/>
-
-				<Label  Text="Job image" TextColor="#480032" />
+                <!--create entry-->
+				<Label  Text="Job image" TextColor="{StaticResource Primary}" />
 				<Frame Margin="10"
-                    BorderColor="Black"
+                    BorderColor="{StaticResource Black}"
                     HeightRequest="150"
                     WidthRequest="150"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                           >
+                    VerticalOptions="Center">
+            <!-- mention frame property its a content control-->               
 					<ImageButton
 						x:Name="JobImage"
                         Clicked="AddJobImage"
@@ -44,22 +45,24 @@
                     </Grid.ColumnDefinitions>
 					<Button
                         HorizontalOptions="End"
-                        VerticalOptions="End"
+                        ContentLayout="left, 20" 
+                        VerticalOptions="Start"
                         Grid.Row="1"
-                        Grid.Column="2"
+                        Grid.Column="3"
                         x:Name="Add"
                         Command="{Binding AddJobCommand}"
                         Text="Save"
-                        BackgroundColor="#480032" />
+                        BackgroundColor="{StaticResource Primary}" />
 					<Button
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
                         Grid.Row="1"
-                        Grid.Column="2"
+                        Grid.Column="3"
                         x:Name="Cancel"
                         Command="{Binding HandleCancelAddCommand}"
                         Text="Cancel"
-                        BackgroundColor="Gray" />
+                         ContentLayout="left, 20" 
+                        BackgroundColor="{StaticResource Gray400}" />
 				</Grid>
 			</VerticalStackLayout>
 </ContentPage>
