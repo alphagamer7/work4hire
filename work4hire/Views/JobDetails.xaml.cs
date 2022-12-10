@@ -9,4 +9,9 @@ public partial class JobDetails : ContentPage
 		InitializeComponent();
 		BindingContext = viewModel;
 	}
+
+    async void OnCancelClicked(object sender, EventArgs args)
+    {
+        await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+    }
 }

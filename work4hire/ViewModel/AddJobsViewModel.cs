@@ -19,7 +19,7 @@ namespace work4hire.ViewModel
         [ObservableProperty]
         private string _category;
 
-        [ObservableProperty] 
+        [ObservableProperty]
         private string _jobTitle;
 
         [ObservableProperty]
@@ -88,14 +88,10 @@ namespace work4hire.ViewModel
             catch (Exception ex)
             {
                 // Unable to get location error) Exception .
-                
+
                 Console.WriteLine(ex);
             }
         }
-
-
-
-        //gs://work4hire-8a56a.appspot.com
 
     }
 }

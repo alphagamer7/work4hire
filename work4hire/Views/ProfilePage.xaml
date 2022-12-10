@@ -26,19 +26,20 @@
                                         WidthRequest="100"
                              />
                     </Frame>
+                   
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="First Name: " FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="firstName" FontSize="24" Text="{Binding GetFirstName}" ></Entry>
+                        <Label Text="First Name: "  TextColor="Gray"/>
+                        <Entry x:Name="firstName"  Text="{Binding GetFirstName}" ></Entry>
                     </HorizontalStackLayout>
 
 <HorizontalStackLayout Spacing="10">
-                        <Label Text="Last Name:" FontSize="24" TextColor="Gray"/>
-                        <Entry x:Name="lastName" FontSize="24" Text="{Binding GetLastName}" ></Entry>
+                        <Label Text="Last Name:"  TextColor="Gray"/>
+                        <Entry x:Name="lastName"  Text="{Binding GetLastName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Email: " FontSize="24" TextColor="Gray"/>
-                        <Label x:Name='email' FontSize="24" Text="{Binding GetEmail}" ></Label>
+                        <Label Text="Email: "  TextColor="Gray"/>
+                        <Label x:Name='email'  Text="{Binding GetEmail}" ></Label>
                     </HorizontalStackLayout>                    
                     
                     <Button x:Name="edit" Text="Edit" Command="{Binding SubmitCommand}"/>

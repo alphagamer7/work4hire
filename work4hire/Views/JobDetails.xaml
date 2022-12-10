@@ -19,7 +19,6 @@
                         Grid.RowSpan="2"
                         Grid.ColumnSpan="1"
                         Margin="0,80,0,0"
-                       BorderColor="Black"
                        CornerRadius="10"
                        HeightRequest="100"
                        WidthRequest="100"
@@ -34,10 +33,34 @@
                          HeightRequest="160"
                           />
                     </Frame>
+               
             </Grid>
             <VerticalStackLayout>
                 <Label Text="{Binding Project.Description}"/>
                  <Label Text="{Binding Project.Category}"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                 <Button
+                        HorizontalOptions="End"
+                        ContentLayout="left, 20" 
+                        VerticalOptions="Start"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        x:Name="fav"
+                        
+                        Text="fav"
+                        BackgroundColor="{StaticResource Primary}" />
+					<Button
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        x:Name="back"
+                        Clicked="OnCancelClicked"
+                        Text="Back"
+                         ContentLayout="left, 20" 
+                        BackgroundColor="{StaticResource Gray400}" />
+
             </VerticalStackLayout>
 
         </VerticalStackLayout>

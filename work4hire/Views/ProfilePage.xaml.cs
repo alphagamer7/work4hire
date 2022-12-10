@@ -4,10 +4,12 @@ using CommunityToolkit.Maui.Views;
 using Newtonsoft.Json;
 using work4hire.ViewModel;
 namespace work4hire.Views;
+using Firebase.Storage;
+using Firebase.Auth;
 
 public partial class ProfilePage : ContentPage
 {
-
+    ImageSource imageStream;
     public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
     {
 
@@ -58,20 +60,34 @@ public partial class ProfilePage : ContentPage
     async void editProfilePic(System.Object sender, System.EventArgs e)
     {
         string action = await DisplayActionSheet("Open With", "Cancel", null, "Camera", "Files");
-        Debug.WriteLine("Action: " + action);
         if (action == "Camera")
-        {
+        {    // Options for choosing image
             var result = await MediaPicker.CapturePhotoAsync();
             if (result != null)
             {
                 var stream = await result.OpenReadAsync();
-                ProfilePic.Source = ImageSource.FromStream(() => stream);
+                imageStream = ImageSource.FromStream(() => stream);
+                ProfilePic.Source = imageStream;
 
+                try
+                {
+                    var downloadLink = await new FirebaseStorage(Model.AppConstant.FirebaseStorage).Child("Profiles/" + result.FileName).PutAsync(await result.OpenReadAsync());
+
+                    Console.WriteLine(downloadLink);
+                    //viewModel.DownloadImage = downloadLink;
+
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                }
             }
+
 
         }
         else if (action == "Files")
-        {
+        { // choose the image
             var result = await FilePicker.PickAsync(new PickOptions
             {
                 PickerTitle = "Pick Image please",
@@ -81,10 +97,24 @@ public partial class ProfilePage : ContentPage
 
             if (result == null) return;
 
-            var stream = await result.OpenReadAsync();
-            ProfilePic.Source = ImageSource.FromStream(() => stream);
+            if (result != null)
+            {   // finding the source of the image
+                var stream = await result.OpenReadAsync();
+                imageStream = ImageSource.FromStream(() => stream);
+                ProfilePic.Source = imageStream;
+                try
+                {   // store the image data in firebase
+                    var downloadLink = await new FirebaseStorage(Model.AppConstant.FirebaseStorage).Child("Profiles/" + result.FileName).PutAsync(await result.OpenReadAsync());
+                    Console.WriteLine(downloadLink);
+                    //viewModel.DownloadImage = downloadLink;
+
+                } // if the exception found
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                }
+            }
         }
+
     }
-
-
 }
