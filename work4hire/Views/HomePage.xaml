@@ -5,7 +5,7 @@
              xmlns:viewmodels="clr-namespace:work4hire.ViewModel"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="work4hire.Views.HomePage"
-             Title="Home Page">
+             Title="Job List">
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior
                 EventName="Appearing"
@@ -44,45 +44,13 @@
  
         <Button
                 Command="{Binding FabIconClickCommand}"
+                StyleClass="FilledButton"
                 Text="Add"
                 CornerRadius="50"
                 HorizontalOptions="End"
                 Padding="20"
                 VerticalOptions="End"
                     >
-
-
         </Button>
         </Grid>
-    <!--<Grid>
-    <StackLayout>
-        <ScrollView>
-     
-            <Frame>
-            <HorizontalStackLayout>
-                    <Frame Margin="10"
-                    BorderColor="Black"
-                    HeightRequest="100"
-                    WidthRequest="100"
-                    IsClippedToBounds="True"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                        <Image Source="user.png"
-                    Aspect="AspectFill"
-                    Margin="-40"
-                    HeightRequest="100"
-                    WidthRequest="100" />
-                    </Frame>
-                    <VerticalStackLayout VerticalOptions="Center">
-                        <Label Text="Work Title" FontSize="24" TextColor="Gray"/>
-                        <Label Text="CreatedDate" FontSize="14" TextColor="Gray"/>
-                        <Label Text="Location" FontSize="14" TextColor="Gray"/>
-                    </VerticalStackLayout>
-            </HorizontalStackLayout>
-            </Frame>
-
-        </ScrollView>
-    </StackLayout>
-    
-    </Grid>-->
 </ContentPage>

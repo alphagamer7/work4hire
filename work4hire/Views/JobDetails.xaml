@@ -8,62 +8,59 @@
              >
    <ScrollView>
         <VerticalStackLayout>
-            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="160, Auto">
+            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="Auto, Auto">
                 <BoxView
                     Grid.ColumnSpan="3"
-                    Background="{StaticResource Primary}"
+                    Color="{StaticResource Primary}"
                     HeightRequest="160"
                     HorizontalOptions="FillAndExpand"
                     />
-                 <Frame 
-                        Grid.RowSpan="2"
-                        Grid.ColumnSpan="1"
-                        Margin="0,80,0,0"
-                       CornerRadius="10"
-                       HeightRequest="100"
-                       WidthRequest="100"
-                       IsClippedToBounds="True"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center">
-                         
+                   <Frame
+                       IsClippedToBounds="False"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand">
                         <Image Source="{Binding Project.Image}"
                          Aspect="AspectFill"
                          HorizontalOptions="Center"
                          VerticalOptions="Center"
-                         HeightRequest="160"
-                          />
+                        />
                     </Frame>
-               
             </Grid>
             <VerticalStackLayout>
-                <Label Text="{Binding Project.Description}"/>
-                 <Label Text="{Binding Project.Category}"/>
+                <Label  FontSize="24" TextColor="Gray" Text="{Binding Project.Category}"/>
+                <Label FontSize="24" Text="{Binding Project.Description}"/>
             </VerticalStackLayout>
-            <VerticalStackLayout>
-                 <Button
+
+            <Grid ColumnSpacing="4" Margin="0 20 0 0">
+			        <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+					<Button
                         HorizontalOptions="End"
                         ContentLayout="left, 20" 
                         VerticalOptions="Start"
                         Grid.Row="1"
                         Grid.Column="3"
-                        x:Name="fav"
-                        
-                        Text="fav"
+                        x:Name="Add"
+                        Command="{Binding AddJobCommand}"
+                        Text="Save"
                         BackgroundColor="{StaticResource Primary}" />
 					<Button
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
                         Grid.Row="1"
                         Grid.Column="3"
-                        x:Name="back"
-                        Clicked="OnCancelClicked"
-                        Text="Back"
+                        x:Name="Cancel"
+                        Command="{Binding HandleCancelAddCommand}"
+                        Text="Cancel"
                          ContentLayout="left, 20" 
                         BackgroundColor="{StaticResource Gray400}" />
-
+				</Grid>
             </VerticalStackLayout>
-
-        </VerticalStackLayout>
-
     </ScrollView>
 </ContentPage>

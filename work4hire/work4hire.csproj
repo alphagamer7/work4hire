@@ -64,6 +64,7 @@
 	  <None Remove="Model\Domain\" />
 	  <None Remove="Model\Utility\" />
 	  <None Remove="FirebaseStorage.net" />
+	  <None Remove="UraniumUI.Material" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -123,6 +124,12 @@
 	  </MauiXaml>
 	  <MauiXaml Update="Views\JobDetails.xaml">
 	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Resources\Styles\Colors %28copy%29.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="Resources\Styles\MaterialColorOverride.xaml">
+	    <SubType>Designer</SubType>
 	  </MauiXaml>
 	</ItemGroup>
 	<ItemGroup>
