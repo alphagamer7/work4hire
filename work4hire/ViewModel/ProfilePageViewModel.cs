@@ -38,12 +38,7 @@ namespace work4hire.ViewModel
         [RelayCommand]
         void Submit()
         {
-            var new_user = new User();
-            new_user.FirstName = _firstName;
-            new_user.LastName = _lastName;
-            new_user.Email = _email;
-            new_user.Address = "97 ashgove";
-            new_user.Image = "";
+            var new_user = new User(FirstName, LastName, _email, "");
 
             save_details(new_user);
         }
@@ -63,9 +58,7 @@ namespace work4hire.ViewModel
 
         public async void save_details(User newUser)
         {
-
-
-            //await DataStore.RegisterUser(newUser);
+            await DataStore.EditUser(newUser);
         }
         #endregion
 

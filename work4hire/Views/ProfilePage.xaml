@@ -29,12 +29,12 @@
                    
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="First Name: "  TextColor="Gray"/>
-                        <Entry x:Name="firstName"  Text="{Binding GetFirstName}" ></Entry>
+                        <Entry x:Name="FirstName"  Text="{Binding GetFirstName}" ></Entry>
                     </HorizontalStackLayout>
 
 <HorizontalStackLayout Spacing="10">
                         <Label Text="Last Name:"  TextColor="Gray"/>
-                        <Entry x:Name="lastName"  Text="{Binding GetLastName}" ></Entry>
+                        <Entry x:Name="LastName"  Text="{Binding GetLastName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">

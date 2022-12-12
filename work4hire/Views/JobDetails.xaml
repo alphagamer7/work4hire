@@ -31,7 +31,7 @@
                 <Label FontSize="24" Text="{Binding Project.Description}"/>
             </VerticalStackLayout>
 
-            <Grid ColumnSpacing="4" Margin="0 20 0 0">
+            <Grid ColumnSpacing="4" >
 			        <Grid.RowDefinitions>
                         <RowDefinition />
                         <RowDefinition />
@@ -47,7 +47,7 @@
                         Grid.Row="1"
                         Grid.Column="3"
                         x:Name="Add"
-                        Command="{Binding AddJobCommand}"
+                        
                         Text="Save"
                         BackgroundColor="{StaticResource Primary}" />
 					<Button
@@ -56,7 +56,7 @@
                         Grid.Row="1"
                         Grid.Column="3"
                         x:Name="Cancel"
-                        Command="{Binding HandleCancelAddCommand}"
+                        Clicked="OnCancelClicked"
                         Text="Cancel"
                          ContentLayout="left, 20" 
                         BackgroundColor="{StaticResource Gray400}" />

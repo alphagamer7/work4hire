@@ -7,6 +7,8 @@ namespace work4hire.Services
     {
         Task<User> RegisterUser(User user);
 
+        Task<User> EditUser(User user);
+
         Task<User> LoginUser(User user);
 
         Task<Project> AddProject(Project project);

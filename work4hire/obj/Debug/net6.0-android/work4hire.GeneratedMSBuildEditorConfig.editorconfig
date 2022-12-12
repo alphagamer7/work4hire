@@ -8,49 +8,94 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = work4hire
-build_property.ProjectDir = /Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/
+build_property.ProjectDir = /Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/
 
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/App.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/AppShell.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/Colors.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Controls/FlyoutHeaderControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Controls.FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls/FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls/FlyoutHeaderControl.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-<<<<<<< Updated upstream
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/ResourceDictionary.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Resources/Styles/MaterialColorOverride.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.ResourceDictionary.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/ResourceDictionary.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/ResourceDictionary.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.MaterialColorOverride.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/MaterialColorOverride.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/MaterialColorOverride.xaml
 
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/StandardDictionary.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.StandardDictionary.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources/Styles/StandardDictionary.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources/Styles/StandardDictionary.xaml
-
-=======
->>>>>>> Stashed changes
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Resources/Styles/Styles.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/Views/MainPage.xaml]
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/AddJobPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.AddJobPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AddJobPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AddJobPage.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/Favourites.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.Favourites.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Favourites.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Favourites.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/HomePage.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/JobDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.JobDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/JobDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/JobDetails.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/LoginPage.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/PostedJobs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.PostedJobs.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PostedJobs.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PostedJobs.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ProfilePage.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/RegisterPage.xaml
+
+[/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Views/Search.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = work4hire.Views.Search.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Search.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Search.xaml

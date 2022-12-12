@@ -46,6 +46,21 @@ namespace work4hire.Services
             return buildUser(json);
         }
 
+        public async Task<User> EditUser(User user)
+        {
+            string content = JsonConvert.SerializeObject(new
+            {
+                email = user.Email,
+                firstName = user.FirstName,
+                lastName = user.LastName,
+                image = user.Image
+            });
+
+
+            dynamic json = await service.PostAsync(BaseUrl + "/user/update", content, "application/json");
+            return json;
+        }
+
         public dynamic buildUser(string user)
         {
             var response = JsonConvert.DeserializeObject<UserResponse>(user);

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
 <!--
  Copyright (C) 2014 The Android Open Source Project
 
@@ -21,13 +20,5 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="28" />
-=======
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="androidx.core.ktx" >
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="31" />
->>>>>>> Stashed changes
 
 </manifest>

@@ -8,9 +8,11 @@ public partial class JobDetailsViewModel : BaseViewModel
 {
 	public JobDetailsViewModel()
 	{
-		
+
 	}
 
 	[ObservableProperty]
 	Project project;
+
+
 }

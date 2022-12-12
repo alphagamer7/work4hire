@@ -4,11 +4,44 @@
         <name>work4hire</name>
     </assembly>
     <members>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.Category">
+            <inheritdoc cref="F:work4hire.ViewModel.AddJobsViewModel._category"/>
+        </member>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.JobTitle">
+            <inheritdoc cref="F:work4hire.ViewModel.AddJobsViewModel._jobTitle"/>
+        </member>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.Description">
+            <inheritdoc cref="F:work4hire.ViewModel.AddJobsViewModel._description"/>
+        </member>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.Image">
+            <inheritdoc cref="F:work4hire.ViewModel.AddJobsViewModel._image"/>
+        </member>
+        <member name="F:work4hire.ViewModel.AddJobsViewModel.handleCancelAddCommand">
+            <summary>The backing field for <see cref="P:work4hire.ViewModel.AddJobsViewModel.HandleCancelAddCommand"/>.</summary>
+        </member>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.HandleCancelAddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:work4hire.ViewModel.AddJobsViewModel.HandleCancelAdd"/>.</summary>
+        </member>
+        <member name="F:work4hire.ViewModel.AddJobsViewModel.addJobCommand">
+            <summary>The backing field for <see cref="P:work4hire.ViewModel.AddJobsViewModel.AddJobCommand"/>.</summary>
+        </member>
+        <member name="P:work4hire.ViewModel.AddJobsViewModel.AddJobCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:work4hire.ViewModel.AddJobsViewModel.AddJob"/>.</summary>
+        </member>
         <member name="P:work4hire.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:work4hire.ViewModel.BaseViewModel._isBusy"/>
         </member>
         <member name="P:work4hire.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:work4hire.ViewModel.BaseViewModel._title"/>
+        </member>
+        <member name="F:work4hire.ViewModel.HomePageViewModel.fabIconClickCommand">
+            <summary>The backing field for <see cref="P:work4hire.ViewModel.HomePageViewModel.FabIconClickCommand"/>.</summary>
+        </member>
+        <member name="P:work4hire.ViewModel.HomePageViewModel.FabIconClickCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:work4hire.ViewModel.HomePageViewModel.FabIconClick"/>.</summary>
+        </member>
+        <member name="P:work4hire.ViewModel.JobDetailsViewModel.Project">
+            <inheritdoc cref="F:work4hire.ViewModel.JobDetailsViewModel.project"/>
         </member>
         <member name="P:work4hire.ViewModel.LoginPageViewModel.Email">
             <inheritdoc cref="F:work4hire.ViewModel.LoginPageViewModel._email"/>
@@ -30,9 +63,6 @@
         </member>
         <member name="P:work4hire.ViewModel.ProfilePageViewModel.Email">
             <inheritdoc cref="F:work4hire.ViewModel.ProfilePageViewModel._email"/>
-        </member>
-        <member name="P:work4hire.ViewModel.ProfilePageViewModel.ContactNo">
-            <inheritdoc cref="F:work4hire.ViewModel.ProfilePageViewModel._contactNo"/>
         </member>
         <member name="F:work4hire.ViewModel.ProfilePageViewModel.submitCommand">
             <summary>The backing field for <see cref="P:work4hire.ViewModel.ProfilePageViewModel.SubmitCommand"/>.</summary>
