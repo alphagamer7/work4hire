@@ -1,103 +1,32 @@
-<<<<<<< Updated upstream
-﻿<Properties StartupConfiguration="{7462C29A-EE24-4DF2-AA83-A0B65E2B8D61}|Default">
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_31" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="work4hire/Resources/Styles/ResourceDictionary.xaml">
-    <Files>
-      <File FileName="work4hire/MauiProgram.cs" />
-      <File FileName="work4hire/AppShell.xaml.cs" />
-      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.476/tools/Xamarin.Android.Aapt2.targets" />
-      <File FileName="work4hire/work4hire.csproj" />
-      <File FileName="work4hire/Model/Project.cs" Line="2" Column="1" />
-      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/7.0.49/targets/Microsoft.Maui.Resizetizer.targets" />
-      <File FileName="../../../.nuget/NuGet/NuGet.Config" />
-      <File FileName="work4hire/Views/RegisterPage.xaml.cs" />
-      <File FileName="work4hire/Model/Person.cs" />
-      <File FileName="work4hire/App.xaml.cs" />
-      <File FileName="work4hire/Views/LoginPage.xaml.cs" />
-      <File FileName="work4hire/Views/Search.xaml.cs" />
-      <File FileName="work4hire/Resources/Styles/Colors.xaml" />
-      <File FileName="work4hire/Resources/Styles/Styles.xaml" />
-      <File FileName="work4hire/AppShell.xaml" />
-      <File FileName="work4hire/Platforms/Android/AndroidManifest.xml" />
-      <File FileName="work4hire/Views/LoginPage.xaml" />
-      <File FileName="work4hire/Views/favorites.xaml" />
-      <File FileName="work4hire/App.xaml" />
-      <File FileName="work4hire/Views/Search.xaml" />
-      <File FileName="work4hire/Views/RegisterPage.xaml" />
-      <File FileName="work4hire/Platforms/Android/MainActivity.cs" />
-      <File FileName="work4hire/Platforms/Android/MainApplication.cs" />
-      <File FileName="work4hire/Resources/AppIcon/appicon.svg" />
-      <File FileName="work4hire/Resources/AppIcon/appiconfg.svg" />
-      <File FileName="work4hire/ViewModel/HomePageViewModel.cs" />
-      <File FileName="work4hire/Views/HomePage.xaml" />
-      <File FileName="work4hire/Views/HomePage.xaml.cs" />
-      <File FileName="work4hire/ViewModel/LoginPageViewModel.cs" />
-      <File FileName="work4hire/Resources/Styles/ResourceDictionary.xaml" Line="8" Column="25" />
-      <File FileName="work4hire/Resources/Styles/ResourceDictionary.xaml.cs" Line="3" Column="25" />
-      <File FileName="work4hire/Resources/Styles/StandardDictionary.xaml" Line="3" Column="68" />
-      <File FileName="work4hire/Views/ProfilePage.xaml" />
-=======
 ﻿<Properties StartupConfiguration="{E4217BED-7532-4286-BA4B-2F017224370E}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="Android.pixel_5_-_api_33" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="work4hire/Views/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="work4hire/Services/WebClientService.cs" Line="63" Column="10" />
-      <File FileName="../../../.nuget/packages/communitytoolkit.maui/1.3.0/readme.txt" />
-      <File FileName="work4hire/Services/IWebClientService.cs" />
-      <File FileName="work4hire/ViewModel/HomePageViewModel.cs" />
-      <File FileName="work4hire/Views/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="work4hire/Views/MainPage.xaml.cs" Line="1" Column="1" />
->>>>>>> Stashed changes
+      <File FileName="work4hire/App.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/App.xaml.cs" />
+      <File FileName="work4hire/Views/HomePage.xaml" Line="18" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="work4hire" expanded="True">
-<<<<<<< Updated upstream
             <Node name="work4hire" expanded="True">
-              <Node name="Model" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="Styles" expanded="True">
-                  <Node name="ResourceDictionary.xaml" expanded="True" selected="True" />
-=======
-            <Node name="NuGet.Config files" expanded="True" />
-            <Node name="work4hire" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MainPage.xaml" expanded="True">
-                  <Node name="MainPage.xaml.cs" selected="True" />
->>>>>>> Stashed changes
-                </Node>
+                <Node name="HomePage.xaml" expanded="True" selected="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-<<<<<<< Updated upstream
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
-  <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="Android.pixel_5_-_api_31" />
-=======
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
->>>>>>> Stashed changes
 </Properties>
