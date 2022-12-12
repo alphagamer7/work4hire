@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/work4hire.csproj": {}
+    "/Users/gurpreetkaur/Documents/new work4hire/work4hire/work4hire/work4hire.csproj": {}
   },
   "projects": {
-    "/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/work4hire.csproj": {
+    "/Users/gurpreetkaur/Documents/new work4hire/work4hire/work4hire/work4hire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/work4hire.csproj",
+        "projectUniqueName": "/Users/gurpreetkaur/Documents/new work4hire/work4hire/work4hire/work4hire.csproj",
         "projectName": "work4hire",
-        "projectPath": "/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/work4hire.csproj",
+        "projectPath": "/Users/gurpreetkaur/Documents/new work4hire/work4hire/work4hire/work4hire.csproj",
         "packagesPath": "/Users/gurpreetkaur/.nuget/packages/",
-        "outputPath": "/Users/gurpreetkaur/Documents/work4hire/work4hire/work4hire/obj/",
+        "outputPath": "/Users/gurpreetkaur/Documents/new work4hire/work4hire/work4hire/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -24,12 +24,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-<<<<<<< Updated upstream
           "https://api.nuget.org/v3/index.json": {},
           "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe": {}
-=======
-          "https://api.nuget.org/v3/index.json": {}
->>>>>>> Stashed changes
         },
         "frameworks": {
           "net6.0-android31.0": {
@@ -63,22 +59,26 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -124,7 +124,6 @@
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-<<<<<<< Updated upstream
               "version": "[6.0.11, 6.0.11]"
             },
             {
@@ -174,41 +173,6 @@
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.android-x86",
               "version": "[6.0.11, 6.0.11]"
-=======
-              "version": "[6.0.10, 6.0.10]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-              "version": "[6.0.10, 6.0.10]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[6.0.10, 6.0.10]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.android",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.android",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.android",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.android",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.android",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.android",
-              "version": "[6.0.541, 6.0.541]"
->>>>>>> Stashed changes
             }
           ],
           "frameworkReferences": {
@@ -228,11 +192,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
         },
         "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
@@ -245,22 +205,26 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -291,7 +255,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref",
-<<<<<<< Updated upstream
               "version": "[16.0.527, 16.0.527]"
             },
             {
@@ -321,37 +284,6 @@
             {
               "name": "Microsoft.Maui.Essentials.Runtime.ios",
               "version": "[6.0.547, 6.0.547]"
-=======
-              "version": "[16.0.523, 16.0.523]"
-            },
-            {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-              "version": "[16.0.523, 16.0.523]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.ios",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.ios",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.ios",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.ios",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.ios",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.ios",
-              "version": "[6.0.541, 6.0.541]"
->>>>>>> Stashed changes
             }
           ],
           "frameworkReferences": {
@@ -371,11 +303,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -388,22 +316,26 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[6.0.547, )",
-=======
-              "version": "[6.0.541, )",
->>>>>>> Stashed changes
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -435,7 +367,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref",
-<<<<<<< Updated upstream
               "version": "[15.4.471, 15.4.471]"
             },
             {
@@ -465,37 +396,6 @@
             {
               "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
               "version": "[6.0.547, 6.0.547]"
-=======
-              "version": "[15.4.465, 15.4.465]"
-            },
-            {
-              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-              "version": "[15.4.465, 15.4.465]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
-              "version": "[6.0.541, 6.0.541]"
->>>>>>> Stashed changes
             }
           ],
           "frameworkReferences": {
@@ -515,11 +415,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
         }
       },
       "runtimes": {

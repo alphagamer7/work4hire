@@ -14,9 +14,7 @@ public partial class App : Application
         DependencyService.Register<FirebaseDataStore>();
 
         MainPage = new AppShell();
-
     }
-
 
 
 
