@@ -6,31 +6,34 @@
   <Grid>
     <StackLayout>
         <ScrollView>
-     <!--Decare the frame property -->
-            <Frame>
-            <HorizontalStackLayout>
-                    <Frame Margin="10"
+     <!--Decare the frame property  , stacklayout for horizontal stack flow-->
+            <Frame Margin="10" BackgroundColor="#480032"  CornerRadius="10"    >
+            <HorizontalStackLayout  Background="#FFD6EC" >
+                    <Frame Margin="20 "
+                    
                     BorderColor="{StaticResource Black}"
-                    HeightRequest="100"
+                    CornerRadius="20"
+                    HeightRequest="90"
                     WidthRequest="100"
+                    Background="Aliceblue"
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
                     VerticalOptions="Center">
                         <Image Source="user.png"
                     Aspect="AspectFill"
-                    Margin="-40"
-                    HeightRequest="100"
-                    WidthRequest="100" />
-                    </Frame>
-                    <VerticalStackLayout VerticalOptions="Center">
+                    Margin="-40" 
+                    HeightRequest="80"
+                    WidthRequest="80" Background="#FFD6EC" />
+                    </Frame >
+                    <VerticalStackLayout VerticalOptions="Center" Background="#FFD6EC">
                         <Label Text="Work Title(fav)" FontSize="24" TextColor="{StaticResource Gray400}"/>
                         <Label Text="CreatedDate" FontSize="14" TextColor="{StaticResource Gray400}"/>
                         <Label Text="Location" FontSize="14" TextColor="{StaticResource Gray400}"/>
                     </VerticalStackLayout>
-            </HorizontalStackLayout>
+            </HorizontalStackLayout >
             </Frame>
 
         </ScrollView>
-    </StackLayout>
+    </StackLayout >
     </Grid>
 </ContentPage>
