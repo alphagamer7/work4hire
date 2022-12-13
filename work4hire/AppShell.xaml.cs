@@ -12,7 +12,7 @@ public partial class AppShell : Shell
         this.BindingContext = new AppShellViewModel();
         //Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
     }
-
+    // Examine that whether the network is available or not and what about the status of the network is is proper or weak
     public async void Connectivity_ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
     {
         if (e.NetworkAccess == NetworkAccess.ConstrainedInternet)
