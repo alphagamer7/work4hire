@@ -22,6 +22,7 @@ namespace work4hire.Model
 
 
             var flyoutItem = new FlyoutItem()
+         
             {
                 Title = "Dashboard Page",
                 Route = nameof(HomePage),
