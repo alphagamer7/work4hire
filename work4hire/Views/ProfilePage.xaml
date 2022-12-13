@@ -23,8 +23,10 @@
                                         Aspect="AspectFill"
                                         Margin="-40"
                                         Source="user.png"
+                                      
                                         HeightRequest="100"
                                         WidthRequest="100"
+                                        BackgroundColor="#FFD6EC"
 
                                        
                              />
