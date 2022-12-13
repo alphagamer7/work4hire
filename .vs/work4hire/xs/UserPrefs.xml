@@ -71,18 +71,17 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.work4hireTest FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="Android.R9PT70A6WWB" />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.R9PT70A6WWB" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="57" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="58" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Services/FirebaseDataStore.cs" relfile="work4hire/Services/FirebaseDataStore.cs" line="60" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="43" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="41" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="20" column="1" />
-      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="18" column="1" />
-    </BreakpointStore>
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="57" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="58" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Services/FirebaseDataStore.cs" relfile="work4hire/Services/FirebaseDataStore.cs" line="60" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="43" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="41" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="20" column="1" />
+    <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="18" column="1" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
