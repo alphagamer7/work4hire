@@ -26,12 +26,13 @@ namespace work4hire.Model
             EditedDate = editedDate;
         }
 
-        public User(string firstname, string lastname, string email, string address)
+        public User(string firstname, string lastname, string email, string address, string image)
         {
             FirstName = firstname;
             LastName = lastname;
             Email = email;
             Address = address;
+            Image = image;
            
         }
 

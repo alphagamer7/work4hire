@@ -10,52 +10,22 @@ using Firebase.Auth;
 public partial class ProfilePage : ContentPage
 {
     ImageSource imageStream;
-    public ProfilePage(ViewModel.ProfilePageViewModel viewModel)
+    ProfilePageViewModel viewModel;
+
+    public ProfilePage(ProfilePageViewModel viewModel)
     {
 
         this.BindingContext = viewModel;
+        this.viewModel = viewModel;
+
         InitializeComponent();
-        //GetProfileInfoAsync();
-
+        FirstName.Text = this.viewModel._firstName;
+        LastName.Text = this.viewModel._lastName;
+        if (!string.IsNullOrEmpty(this.viewModel.ProfileImage))
+        {
+            ProfilePic.Source = this.viewModel.ProfileImage;
+        }
     }
-    //private async Task GetProfileInfoAsync()
-    //{
-    //    var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
-    //    email.Text = userInfo.User.Email;
-    //    firstName.Text = userInfo.User.FirstName;
-    //    lastName.Text = userInfo.User.LastName;
-
-    //}
-    //void editDetails(System.Object sender, System.EventArgs e)
-    //{
-
-
-
-    //if (count == 0) {
-
-    //    firstName.IsEnabled = true;
-    //    lastName.IsEnabled = true;
-    //    contactNo.IsEnabled = true;
-    //    email.IsEnabled = true;
-
-    //    edit.Text = "Save";
-    //    count = 1;
-    //}
-    //else
-    //{
-    //    firstName.IsEnabled = false;
-    //    lastName.IsEnabled = false;
-    //    contactNo.IsEnabled = false;
-    //    email.IsEnabled = false;
-
-    //    edit.Text = "Edit";
-
-    //    count = 0;
-    //}
-
-
-
-    //}
 
     async void editProfilePic(System.Object sender, System.EventArgs e)
     {
@@ -74,7 +44,7 @@ public partial class ProfilePage : ContentPage
                     var downloadLink = await new FirebaseStorage(Model.AppConstant.FirebaseStorage).Child("Profiles/" + result.FileName).PutAsync(await result.OpenReadAsync());
 
                     Console.WriteLine(downloadLink);
-                    //viewModel.DownloadImage = downloadLink;
+                    viewModel.ProfileImage = downloadLink;
 
 
                 }
@@ -106,7 +76,7 @@ public partial class ProfilePage : ContentPage
                 {   // store the image data in firebase
                     var downloadLink = await new FirebaseStorage(Model.AppConstant.FirebaseStorage).Child("Profiles/" + result.FileName).PutAsync(await result.OpenReadAsync());
                     Console.WriteLine(downloadLink);
-                    //viewModel.DownloadImage = downloadLink;
+                    viewModel.ProfileImage = downloadLink;
 
                 } // if the exception found
                 catch (Exception ex)

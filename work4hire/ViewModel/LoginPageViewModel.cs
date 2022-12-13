@@ -41,7 +41,8 @@ namespace work4hire.ViewModel
                     User user = await DataStore.LoginUser(loginUser);
 
                     App.UserDetails = userDetails;
-                    userDetails.Email = user.Email;
+                    user.Email = loginUser.Email;
+                    userDetails.Email = loginUser.Email;
                     userDetails.RoleID = user.Status;
                     userDetails.RoleText = "User";
                     userDetails.FullName = user.FirstName+" "+user.LastName;

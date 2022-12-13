@@ -1,35 +1,32 @@
 ﻿<Properties StartupConfiguration="{E4217BED-7532-4286-BA4B-2F017224370E}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="work4hire/Views/ProfilePage.xaml.cs">
     <Files>
-      <File FileName="work4hire/ViewModel/ProfilePageViewModel.cs" Line="10" Column="23" />
-      <File FileName="work4hire/Services/IWebClientService.cs" />
-      <File FileName="work4hire/Services/WebClientService.cs" />
-      <File FileName="work4hire/Views/LoginPage.xaml.cs" />
-      <File FileName="work4hire/ViewModel/JobDetailsViewModel.cs" />
-      <File FileName="work4hire/Model/Domain/User.cs" />
-      <File FileName="work4hire/Views/AddJobPage.xaml.cs" />
-      <File FileName="work4hire/Views/JobDetails.xaml.cs" />
-      <File FileName="work4hire/Views/PostedJobs.xaml.cs" />
-      <File FileName="work4hire/ViewModel/AddJobsViewModel.cs" />
-      <File FileName="work4hire/Model/Utility/AppConstant.cs" />
-      <File FileName="work4hire/Model/Domain/Person.cs" />
-      <File FileName="work4hire/Views/Favourites.xaml.cs" />
-      <File FileName="work4hire/Views/ProfilePage.xaml.cs" Line="102" Column="59" />
-      <File FileName="work4hire/Views/RegisterPage.xaml.cs" />
-      <File FileName="work4hire/Views/HomePage.xaml.cs" />
-      <File FileName="work4hire/Platforms/Android/AndroidManifest.xml" />
-      <File FileName="work4hire/AppShell.xaml" />
-      <File FileName="work4hire/Views/Search.xaml" />
-      <File FileName="work4hire/Views/HomePage.xaml" />
-      <File FileName="work4hire/Views/PostedJobs.xaml" />
-      <File FileName="work4hire/Views/LoginPage.xaml" />
-      <File FileName="work4hire/App.xaml" />
-      <File FileName="work4hire/Views/RegisterPage.xaml" />
-      <File FileName="work4hire/Views/ProfilePage.xaml" />
-      <File FileName="work4hire/Resources/Styles/Styles.xaml" />
-      <File FileName="work4hire/Views/JobDetails.xaml" />
-      <File FileName="work4hire/Views/AddJobPage.xaml" />
-      <File FileName="work4hire/Views/Favourites.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/MauiProgram.cs" Line="21" Column="1" />
+      <File FileName="work4hire/ViewModel/JobDetailsViewModel.cs" Line="1" Column="1" />
+      <File FileName="work4hire/Views/JobDetails.xaml.cs" Line="14" Column="6" />
+      <File FileName="work4hire/ViewModel/ProfilePageViewModel.cs" Line="30" Column="30" />
+      <File FileName="work4hire/ViewModel/AddJobsViewModel.cs" Line="53" Column="52" />
+      <File FileName="work4hire/Services/IFirebaseDataStore.cs" Line="10" Column="28" />
+      <File FileName="work4hire/Services/FirebaseDataStore.cs" Line="104" Column="1" />
+      <File FileName="work4hire/ViewModel/HomePageViewModel.cs" Line="40" Column="53" />
+      <File FileName="work4hire/Model/Domain/Project.cs" Line="45" Column="34" />
+      <File FileName="work4hire/Views/ProfilePage.xaml.cs" Line="19" Column="18" />
+      <File FileName="work4hire/Model/Domain/User.cs" Line="23" Column="27" />
+      <File FileName="work4hire/Platforms/Android/AndroidManifest.xml" Line="14" Column="12" />
+      <File FileName="work4hire/ViewModel/MainPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="work4hire/Services/IWebClientService.cs" Line="1" Column="1" />
+      <File FileName="work4hire/Views/AddJobPage.xaml.cs" Line="15" Column="32" />
+      <File FileName="work4hire/Services/WebClientService.cs" Line="1" Column="1" />
+      <File FileName="work4hire/Views/JobDetails.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/Views/HomePage.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/App.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/Resources/Styles/Colors.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/Views/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/Views/AddJobPage.xaml" Line="1" Column="1" />
+      <File FileName="work4hire/Views/ProfilePage.xaml" Line="32" Column="49" />
+      <File FileName="work4hire/Views/Favourites.xaml" Line="14" Column="40" />
+      <File FileName="work4hire/ViewModel/RegisterViewModel.cs" Line="1" Column="1" />
+      <File FileName="work4hire/Views/PostedJobs.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -39,47 +36,53 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Model" expanded="True">
                 <Node name="Domain" expanded="True" />
-                <Node name="Utility" expanded="True" />
               </Node>
               <Node name="Platforms" expanded="True">
-                <Node name="Android" expanded="True">
-                  <Node name="Resources" expanded="True">
-                    <Node name="values" expanded="True" />
-                  </Node>
-                </Node>
+                <Node name="Android" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
+                <Node name="Fonts" expanded="True" />
+                <Node name="Raw" expanded="True" />
                 <Node name="Splash" expanded="True" />
+                <Node name="Styles" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="AddJobPage.xaml" expanded="True" />
-                <Node name="Favourites.xaml" expanded="True" />
-                <Node name="HomePage.xaml" expanded="True" />
                 <Node name="JobDetails.xaml" expanded="True" />
-                <Node name="LoginPage.xaml" expanded="True" />
-                <Node name="PostedJobs.xaml" expanded="True" />
                 <Node name="ProfilePage.xaml" expanded="True" />
-                <Node name="RegisterPage.xaml" expanded="True" />
               </Node>
-              <Node name="AppShell.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>json</Value>
+          <Value>response[0]</Value>
+          <Value>JsonConvert.DeserializeObject&lt;APIResponse&gt;(user);</Value>
+          <Value>JsonConvert.DeserializeObject&lt;APIResponse&gt;(user);</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="Android.R9PT70A6WWB" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.R9PT70A6WWB" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/Services/FirebaseDataStore.cs" relfile="work4hire/Services/FirebaseDataStore.cs" line="27" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="57" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/AddJobsViewModel.cs" relfile="work4hire/ViewModel/AddJobsViewModel.cs" line="58" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Services/FirebaseDataStore.cs" relfile="work4hire/Services/FirebaseDataStore.cs" line="60" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="43" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/ViewModel/ProfilePageViewModel.cs" relfile="work4hire/ViewModel/ProfilePageViewModel.cs" line="41" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="20" column="1" />
+      <Breakpoint file="/Users/test/Projects/work4hire/work4hire/Views/ProfilePage.xaml.cs" relfile="work4hire/Views/ProfilePage.xaml.cs" line="18" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.work4hire PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

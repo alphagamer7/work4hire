@@ -25,6 +25,8 @@ namespace work4hire.ViewModel
         [ObservableProperty]
         public string _email;
 
+        public string ProfileImage { get; set; }
+
         public ProfilePageViewModel()
         {
             GetProfileInfo();
@@ -38,8 +40,8 @@ namespace work4hire.ViewModel
         [RelayCommand]
         void Submit()
         {
-            var new_user = new User(FirstName, LastName, _email, "");
-
+            var new_user = new User(FirstName, LastName, _email, "", ProfileImage);
+    
             save_details(new_user);
         }
 
@@ -74,8 +76,6 @@ namespace work4hire.ViewModel
             //JsonConvert.DeserializeObject<UserResponse>(user);
             Console.Write(userString);
         }
-
-
     }
 }
 

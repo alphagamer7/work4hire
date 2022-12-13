@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/work4hire.csproj": {}
+    "/Users/test/Projects/work4hire/work4hire/work4hire.csproj": {}
   },
   "projects": {
-    "/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/work4hire.csproj": {
+    "/Users/test/Projects/work4hire/work4hire/work4hire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/work4hire.csproj",
+        "projectUniqueName": "/Users/test/Projects/work4hire/work4hire/work4hire.csproj",
         "projectName": "work4hire",
-        "projectPath": "/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/work4hire.csproj",
-        "packagesPath": "/Users/shubhamdhamane/.nuget/packages/",
-        "outputPath": "/Users/shubhamdhamane/Documents/cambrian/sem2/adv android/work4hire/work4hire/obj/",
+        "projectPath": "/Users/test/Projects/work4hire/work4hire/work4hire.csproj",
+        "packagesPath": "/Users/test/.nuget/packages/",
+        "outputPath": "/Users/test/Projects/work4hire/work4hire/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/shubhamdhamane/.nuget/NuGet/NuGet.Config"
+          "/Users/test/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0-android",
@@ -31,7 +31,7 @@
             "targetAlias": "net6.0-android",
             "projectReferences": {}
           },
-          "net6.0-ios16.0": {
+          "net6.0-ios15.4": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {}
           },
@@ -72,12 +72,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -102,44 +102,16 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-              "version": "[6.0.11, 6.0.11]"
+              "name": "Microsoft.NETCore.App.Host.linux-arm",
+              "version": "[6.0.8, 6.0.8]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-              "version": "[6.0.11, 6.0.11]"
+              "name": "Microsoft.NETCore.App.Host.linux-arm64",
+              "version": "[6.0.8, 6.0.8]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.android",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm64",
-              "version": "[6.0.11, 6.0.11]"
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.8, 6.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -159,9 +131,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         },
-        "net6.0-ios16.0": {
+        "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "CommunityToolkit.Maui": {
@@ -186,12 +158,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -219,40 +191,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.iOS.Ref",
-              "version": "[16.0.527, 16.0.527]"
-            },
-            {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-              "version": "[16.0.527, 16.0.527]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.ios",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.ios",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.ios",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.ios",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.ios",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.ios",
-              "version": "[6.0.547, 6.0.547]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -270,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -297,12 +235,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.547, )",
+              "version": "[6.0.486, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -331,40 +269,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.MacCatalyst.Ref",
-              "version": "[15.4.471, 15.4.471]"
-            },
-            {
-              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-              "version": "[15.4.471, 15.4.471]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Ref.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            },
-            {
-              "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
-              "version": "[6.0.547, 6.0.547]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -382,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -29,23 +29,15 @@
                    
                     <HorizontalStackLayout Spacing="10">
                         <Label Text="First Name: "  TextColor="Gray"/>
-                        <Entry x:Name="FirstName"  Text="{Binding GetFirstName}" ></Entry>
-                    </HorizontalStackLayout>
-
-<HorizontalStackLayout Spacing="10">
-                        <Label Text="Last Name:"  TextColor="Gray"/>
-                        <Entry x:Name="LastName"  Text="{Binding GetLastName}" ></Entry>
+                        <Entry x:Name="FirstName"  Text="{Binding FirstName}" ></Entry>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout Spacing="10">
-                        <Label Text="Email: "  TextColor="Gray"/>
-                        <Label x:Name='email'  Text="{Binding GetEmail}" ></Label>
-                    </HorizontalStackLayout>                    
-                    
+                        <Label Text="Last Name:"  TextColor="Gray"/>
+                        <Entry x:Name="LastName"  Text="{Binding LastName}" ></Entry>
+                    </HorizontalStackLayout>
+            
                     <Button x:Name="edit" Text="Edit" Command="{Binding SubmitCommand}"/>
-              
-                    
-
             </VerticalStackLayout>
             </Frame>
 
