@@ -8,7 +8,7 @@
 <Grid>
     <StackLayout>
         <ScrollView>
-            <Frame>
+            <Frame BackgroundColor="#FFF5E4">
             <VerticalStackLayout x:Name="VerticalLayout">
                     <Frame Margin="10"
                     BorderColor="Black"
