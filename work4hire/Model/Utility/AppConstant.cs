@@ -15,7 +15,7 @@ namespace work4hire.Model
         public async static Task AddFlyoutMenusDetails()
         {
             AppShell.Current.FlyoutHeader = new FlyoutHeaderControl();
-
+          
             var homePageInfo = AppShell.Current.Items.Where(f => f.Route == nameof(HomePage)).FirstOrDefault();
             if (homePageInfo != null) AppShell.Current.Items.Remove(homePageInfo);
 

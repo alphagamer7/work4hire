@@ -7,8 +7,8 @@
     <StackLayout>
         <ScrollView>
      <!--Decare the frame property  , stacklayout for horizontal stack flow-->
-            <Frame Margin="10" BackgroundColor="#480032"  CornerRadius="10"    >
-            <HorizontalStackLayout  Background="#FFD6EC" >
+            <Frame Margin="10" BackgroundColor="#480032"  CornerRadius="10"   >
+            <HorizontalStackLayout  Background="#FFD6EC"  >
                     <Frame Margin="20 "
                     
                     BorderColor="{StaticResource Black}"
