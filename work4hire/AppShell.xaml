@@ -7,16 +7,9 @@
     FlyoutBackgroundColor="#FFF5E4"
     Shell.FlyoutBehavior="Flyout" > 
    
-   
 
-
-
-    
-
-
-
-
-
+<!-- Background color of whole the flyout page changed ( property in line 7 )-->
+    <!--Code in Shell.flyout.footer and shell.flyout.header determine the color of header and footer of the flyout item-->
     <ShellContent
             Shell.TabBarIsVisible="false"
             FlyoutItemIsVisible="False"
