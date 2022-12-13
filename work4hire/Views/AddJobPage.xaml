@@ -32,6 +32,8 @@
                         Margin="-40"
                         HeightRequest="100"
                         WidthRequest="100"
+                        Source="user.png"
+                        BackgroundColor="#FFD6EC"
                     />
 			     </Frame>
 				<Grid ColumnSpacing="4">

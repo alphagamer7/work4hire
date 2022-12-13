@@ -17,7 +17,7 @@ public partial class RegisterPage : ContentPage
     }
 
     public async Task GetCurrentLocation()
-    {
+    {      // check the current location of the user 
         try
         {
             _isCheckingLocation = true;
