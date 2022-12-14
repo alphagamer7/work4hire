@@ -69,7 +69,10 @@ namespace work4hire.Services
 
         public async Task<Project> AddProject(Project project)
         {
-            
+            // send user email
+            var userString = Preferences.Get("user", "");
+            var userInfo = JsonConvert.DeserializeObject<User>(Preferences.Get("user", ""));
+
             string content = JsonConvert.SerializeObject(new
             {
                 title = project.Title,
@@ -78,6 +81,7 @@ namespace work4hire.Services
                 image= project.Image,
                 latitude = project.Latitude,
                 longitude = project.Longitude,
+                email = userInfo.Email
             });
 
             string json = await service.PostAsync(BaseUrl + "/project/add", content, "application/json");
